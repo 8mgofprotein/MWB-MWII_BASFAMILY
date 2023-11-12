@@ -32,7 +32,7 @@ SWEP.Trigger = {
 
 SWEP.Primary.Sound = Sound("weap_charlie9_fire_fire_plr")
 SWEP.Primary.Ammo = "SMG1"
-SWEP.Primary.ClipSize = 20
+SWEP.Primary.ClipSize = 30
 SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
@@ -140,8 +140,8 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Aim = {
-        Angles = Angle(0, 0, 0),
-        Pos = Vector(0, 2, 0)
+        Angles = Angle(0, 0, 2),
+        Pos = Vector(0.44, 2, 0.56)
     },
     Idle = {
         Angles = Angle(0, 0, 0),
