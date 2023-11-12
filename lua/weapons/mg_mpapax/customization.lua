@@ -43,10 +43,10 @@ SWEP.Customization = {
     "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01_tall", "att_vm_2x_west01",
     "att_vm_4x_west01_tall", "att_vm_4x_west02_tall", "att_vm_reflex_west04"},
 
-    {"att_laser", "attachment_vm_sm_charlie9_laser01", "attachment_vm_sm_charlie9_laser02", 
+    {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_charlie9_laser02", 
     "attachment_vm_sm_charlie9_laser03"},
 
-    {"att_grip", "attachment_vm_sm_charlie9_bipodgrip", "attachment_vm_sm_charlie9_angledgrip01", "attachment_vm_sm_charlie9_angledgrip02", "attachment_vm_sm_charlie9_stubbygrip01", 
+    {"att_grip", "attachment_vm_sm_charlie9_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_charlie9_angledgrip02", "attachment_vm_sm_charlie9_stubbygrip01", 
     "attachment_vm_sm_charlie9_stubbygrip02", "attachment_vm_sm_charlie9_vertgrip01", "attachment_vm_sm_charlie9_vertgrip02", 
     "attachment_vm_sm_charlie9_vertgrip03"},
 }

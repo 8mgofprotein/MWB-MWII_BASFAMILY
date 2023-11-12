@@ -403,6 +403,22 @@ SWEP.Animations = {
         
         }
     },
+    ["Inspect_empty"] = {
+        Sequences = {"inspect_empty"},
+        Length = 4.366,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
+            {Time = 4.3, Callback = function(self) self:EnableGrip() end},
+            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_01")) end},
+            {Time = 2.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_02")) end},
+            {Time = 3.333, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_04")) end},
+            {Time = 4.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_05")) end},
+            {Time = 2.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_03")) end},
+        
+        }
+    },
 
     ["Jog_Out"] = {
         Sequences = {"jog_out"},

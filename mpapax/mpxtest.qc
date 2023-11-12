@@ -27,7 +27,7 @@ $mostlyopaque
 $cdmaterials "zeron/weapons/basp/"
 
 $attachment "muzzle" "tag_flash" 0 0 0 rotate 0 0 0
-$attachment "shell_eject" "tag_brass" 0.00 0.00 0.00 rotate -0 90 0
+$attachment "shell_eject" "tag_brass" 0.00 0.00 0.00 rotate -0 0 0
 $attachment "camera" "tag_playerhelmet" 0 0 0 rotate 0 0 0
 $attachment "reflex" "tag_reflex" 0 0 0 rotate 0 0 0
 $attachment "holo" "tag_holo" 0 0 0 rotate 0 0 0
@@ -479,11 +479,6 @@ $bonemerge "j_thumb_le_4"
 $bonemerge "j_thumb_ri_4"
 $bonemerge "j_index_le_4"
 $bonemerge "j_index_ri_4"
-$bonemerge "j_bullet2"
-$bonemerge "j_loose_round"
-$bonemerge "tag_grip_attach" 
-$bonemerge "tag_folding_grip"
-$bonemerge "tag_laser_attach"
 $bonemerge "tag_pistolgrip_attach"
 
 

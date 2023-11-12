@@ -1,8 +1,9 @@
 ATTACHMENT.Base = "att_vm_angledgrip01_smg"
-ATTACHMENT.Bodygroups = {
+ATTACHMENT.AttachmentBodygroups = {
     ["tag_grip_hide"] = 1,
     ["tag_grip_attach"] = 1
 }
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:PostProcess(weapon)
