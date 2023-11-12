@@ -1,0 +1,58 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "generator": "Greyhound",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 64
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 64,
+      "uri": "wpn_vm_p08_sm_mpapax_LOD0.bin"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "j_gun",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 0,
+      "joints": [
+        0
+      ]
+    }
+  ]
+}
