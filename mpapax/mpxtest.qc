@@ -1150,7 +1150,7 @@ $sequence "semi_off" {
 $sequence "draw_first" {
 	"mpapaxanims\vm_p08_sm_mpapax_raise_first.smd"
 	rotate -90
-	{ event 9011 0 "0" }
+	{ event 9011 1 "0" }
 	{ event 5004 0 "fly_ar_standard_pullout_01" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 21 "Viewmodel.Small" }
