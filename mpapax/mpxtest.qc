@@ -1793,6 +1793,7 @@ $sequence "inspect_drum" {
 
 $sequence "inspect_smag" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect_smag.smd"
+	rotate -90
 	{ event 9011 3 "0" }
 	{ event 9011 158 "1" }
 	{ event 5004 60 "Viewmodel.Small" }
