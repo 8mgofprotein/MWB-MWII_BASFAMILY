@@ -26,11 +26,11 @@ SWEP.Slot = 2
 SWEP.HoldType = "TinyGun"
 SWEP.Trigger = {
     PressedSound = Sound("weap_charlie9_fire_first_plr"),
-    ReleasedSound = Sound("weap_charlie9_disconnector_plr"),
+    ReleasedSound = Sound("weap_mpapa7_deadtrigger_plr_01"),
     Time = 0.015
 }
 
-SWEP.Primary.Sound = Sound("weap_charlie9_fire_fire_plr")
+SWEP.Primary.Sound = Sound("weap_mpapax_fire_plr_shot_01")
 SWEP.Primary.Ammo = "SMG1"
 SWEP.Primary.ClipSize = 30
 SWEP.Primary.Automatic = true
@@ -54,13 +54,13 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("Atmo_SMG.Outside"),
-            Reflection = Sound("Reflection_Pistol.Outside")
+            Layer = Sound("weap_smg_fire_plr_atmo_int1_01"),
+            Reflection = Sound("")
         },
 
         Inside = { 
-            Layer = Sound("Atmo_SMG.Inside"),
-            Reflection = Sound("Reflection_Pistol.Inside")
+            Layer = Sound("weap_smg_sup_fire_plr_atmo_ext2_01"),
+            Reflection = Sound("")
         }
     }
 }
