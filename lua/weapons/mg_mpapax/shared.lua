@@ -54,7 +54,7 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("weap_smg7_fire_plr_atmo_int1_01"),
+            Layer = Sound("weap_smg7_fire_plr_atmo_ext1_01"),
             Reflection = Sound("")
         },
 
