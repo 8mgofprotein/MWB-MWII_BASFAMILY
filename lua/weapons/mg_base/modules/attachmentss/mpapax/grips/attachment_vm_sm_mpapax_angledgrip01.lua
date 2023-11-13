@@ -1,4 +1,4 @@
-ATTACHMENT.Base = "att_vm_angledgrip01_smg"
+ATTACHMENT.Base = "att_vm_angledgrip01"
 ATTACHMENT.AttachmentBodygroups = {
     ["tag_grip_hide"] = 1,
     ["tag_grip_attach"] = 1
