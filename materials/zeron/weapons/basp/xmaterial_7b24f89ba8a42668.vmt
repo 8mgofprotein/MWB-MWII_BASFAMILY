@@ -6,8 +6,7 @@
     "$bumpmap" "zeron\weapons\basp\xmaterial_7b24f89ba8a42668_n"
     "$phongexponenttexture" "zeron\weapons\basp\xmaterial_7b24f89ba8a42668_e"
 
-    "$color2" "[0 0 0]"
-    "$blendtintbybasealpha" "1"
+    "$translucent" "1"
 
     "$phong" "1"
     "$phongboost" "1"

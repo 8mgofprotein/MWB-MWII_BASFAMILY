@@ -13,7 +13,7 @@ if CLIENT then
 end
 
 SWEP.Base = "mg_base"
-SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vertpro_offset", "grip_barmini_offset", "grip_barshort_offset", "grip_barlong_offset"}
+SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vertpro_offset", "grip_barmini_offset", "grip_barshort_offset", "grip_barlong_offset" , "grip_barshort_gripang_offset", "grip_barshort_gripvert_offset", "grip_barshort_gripvertpro_offset"}
 
 SWEP.PrintName = "BAS - P"
 SWEP.Category = "Modern Warfare"
@@ -54,12 +54,12 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("weap_smg_fire_plr_atmo_int1_01"),
+            Layer = Sound("weap_smg7_fire_plr_atmo_int1_01"),
             Reflection = Sound("")
         },
 
         Inside = { 
-            Layer = Sound("weap_smg_sup_fire_plr_atmo_ext2_01"),
+            Layer = Sound("weap_smg_fire_plr_atmo_int1_01"),
             Reflection = Sound("")
         }
     }

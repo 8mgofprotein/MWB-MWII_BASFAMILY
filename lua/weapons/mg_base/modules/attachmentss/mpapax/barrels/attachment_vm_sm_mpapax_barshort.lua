@@ -7,6 +7,7 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
         weapon.HoldType = "Rifle"
+		weapon.AlternateGrips = true
         weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 0.9
         weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 0.9
         weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.1
@@ -19,4 +20,5 @@ end
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
     weapon:SetGripPoseParameter("grip_barshort_offset")
+
 end 

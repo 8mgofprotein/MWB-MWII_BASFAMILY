@@ -4,10 +4,10 @@ sound.Add({
     channel =        CHAN_WPNFOLEY +1,
     volume =         1,
     sound = {"kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_01.wav",
-	          "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_02.wav"
-			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_03.wav"
-			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_04.wav"
-			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_05.wav"
+	          "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_02.wav",
+			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_03.wav",
+			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_04.wav",
+			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_05.wav",
 			  "kyo/mwii/mpapax/weap_mpapa7_deadtrigger_plr_06.wav"}              
 })
 sound.Add({

@@ -1,28 +1,28 @@
 // Created by Crowbar 0.74
 
-$modelname "att_vm_p08_sm_mpapax_barsil_v0_LOD0.mdl"
+$modelname "att_vm_p08_sm_mpapax_barmini_v0_LOD0.mdl"
 
 $bodygroup "slide"
 {
-	studio "att_vm_p08_sm_mpapax_barsil_v0_LOD0.smd"
+	studio "att_vm_p08_sm_mpapax_barmini_v0_LOD0.smd"
 }
 
 $bodygroup "tag_sight"
 {
-	studio "att_vm_p08_sm_mpapax_barsil_v0_sight_on.smd"
-	studio "att_vm_p08_sm_mpapax_barsil_v0_tag_sight_off.smd"
+	studio "att_vm_p08_sm_mpapax_barmini_v0_sight_on.smd"
+	studio "att_vm_p08_sm_mpapax_barmini_v0_sight_off.smd"
 	blank
 }
 
 $bodygroup "tag_grip_hide"
 {
-	studio "att_vm_p08_sm_mpapax_barsil_tag_rail_off.smd"
-	studio "att_vm_p08_sm_mpapax_barsil_tag_rail_on.smd"
+	studio "att_vm_p08_sm_mpapax_barmini_v0_rail_off.smd"
+	studio "att_vm_p08_sm_mpapax_barmini_v0_rail_on.smd"
 }
 $bodygroup "laser"
 {
 	blank
-	studio "att_vm_p08_sm_mpapax_barsil_v0_tag_laser.smd"
+	studio "att_vm_p08_sm_mpapax_barmini_v0_laser_on.smd"
 }
 
 $surfaceprop "default"
@@ -53,13 +53,13 @@ $definebone "tag_grip_hide" "tag_barrel_attach" 2.877000 0.000000 -0.277000 -0.0
 $definebone "tag_grip_show" "tag_barrel_attach" 2.877000 0.000000 -0.277000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_tip" "tag_barrel_attach" 6.825000 0.000000 -0.015000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_flash_attachment" "tag_tip" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "tag_grip_attach" "tag_barrel_attach" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 4.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "tag_folding_grip" "tag_barrel_attach" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_grip_attach" "tag_barrel_attach" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 3.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_folding_grip" "tag_barrel_attach" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 -2.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_laser_attach" "tag_barrel_attach" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 
 
 $sequence "reference" {
-	"att_vm_p08_sm_mpapax_barsil_v0_LOD0.smd"
+	"att_vm_p08_sm_mpapax_barmini_v0_LOD0.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

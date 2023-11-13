@@ -1,10 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "att_wm_p08_sm_mpapax_smag_v0.mdl"
+$modelname "att_wm_p08_sm_mpapax_drummag_v0.mdl"
 
 $bodygroup "grip"
 {
-	studio "att_wm_p08_sm_mpapax_smag_v0_LOD0.smd"
+	studio "att_wm_p08_sm_mpapax_drummag_v0_LOD0.smd"
 }
 
 $surfaceprop "default"
@@ -57,43 +57,14 @@ $definebone "j_spring" "j_mag1" 1.163000 0.018000 -4.119000 -12.506235 0.000000 
 $definebone "j_mag2" "tag_mag_attach" -0.863000 0.000000 1.087000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "j_ammo_31" "j_mag_09" 1.024000 0.163000 -3.801000 -22.337906 -0.004183 -164.987503 0.000000 0.000000 0.000000 0.000002 -0.000000 -0.000002
 
-$poseparameter "bullets_offset" 0 30 loop 0
-
-
-$animation "a_bullets_idle_to_sub_corrective_animation" "att_vm_p01_ar_mike4_mag_v0_lod0_anims\a_bullets_idle_to_sub_corrective_animation.smd" {
-	fps 30
-}
-
-$animation "a_delta_bullets_additive_for_offset_corrective_animation" "anims\mag_follower_correcting.smd" {
-	fps 30
-}
-
-$animation "bullets_idle_to_sub" "att_vm_p01_ar_mike4_mag_v0_lod0_anims\bullets_idle_to_sub.smd" {
-	fps 30
-}
-
-$animation "a_bullets_idle_to_sub" "att_vm_p01_ar_mike4_mag_v0_lod0_anims\a_bullets_idle_to_sub.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_bullets_idle_to_sub_corrective_animation" 0
-}
-
-$animation "a_delta_bullets_additive_for_offset" "anims\mag_follower_additive.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_delta_bullets_additive_for_offset_corrective_animation" 0
-}
-
 $sequence "reference" {
-	"a_bullets_idle_to_sub"
-	"a_delta_bullets_additive_for_offset"
-	blend "bullets_offset" 0 30
-	blendwidth 2
-	delta
+	"att_wm_p08_sm_mpapax_drummag_v0_LOD0.smd"
 	fadein 0.2
 	fadeout 0.2
-	realtime
+	fps 30
+	loop
 }
+
 $keyvalues
 {
 // CSGO compiler adds the qc_path keyvalue section automatically.

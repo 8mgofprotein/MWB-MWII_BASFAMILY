@@ -14,5 +14,9 @@ end
 
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
-weapon:SetGripPoseParameter("grip_vertpro_offset")
+    if (weapon.AlternateGrips) then 
+        weapon:SetGripPoseParameter("grip_barshort_gripvertpro_offset") 
+    else
+        weapon:SetGripPoseParameter("grip_vertpro_offset")
+    end
 end 
