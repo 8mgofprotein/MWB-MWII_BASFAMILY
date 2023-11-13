@@ -39,9 +39,9 @@ SWEP.Customization = {
 
     {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
-    "att_vm_reflex_east02_tall", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
-    "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01_tall", "att_vm_2x_west01",
-    "att_vm_4x_west01_tall", "att_vm_4x_west02_tall", "att_vm_reflex_west04"},
+    "att_vm_reflex_east02", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
+    "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01", "att_vm_2x_west01",
+    "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02", "att_vm_hybrid_west02_thermal"},
 
     {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_charlie9_laser02", 
     "attachment_vm_sm_charlie9_laser03"},

@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Model = Model("models/kyo/att_wm_p08_sm_mpapax_mag_v0.mdl")
 ATTACHMENT.BulletList = {
-    [0] = {"j_ammo_01"},
+    [0] = {"j_ammo_09"},
 	[1] = {"j_ammo_02"},
 	[2] = {"j_ammo_03"},
 	[3] = {"j_ammo_04"},
@@ -9,7 +9,7 @@ ATTACHMENT.BulletList = {
 	[5] = {"j_ammo_06"},
 	[6] = {"j_ammo_07"},
 	[7] = {"j_ammo_08"},
-	[8] = {"j_ammo_09"},
+	[8] = {"j_ammo_01"},
 	[9] = {"j_ammo_10"},
 	[10] = {"j_ammo_11"},
 	[11] = {"j_ammo_12"},

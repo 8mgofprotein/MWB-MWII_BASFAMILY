@@ -6,14 +6,14 @@
     "$bumpmap" "zeron\weapons\basp\xmaterial_3c99fbcea1e0e9d4_n"
     "$phongexponenttexture" "zeron\weapons\basp\xmaterial_3c99fbcea1e0e9d4_e"
 
-    "$color2" "[0 0 0]"
+    "$color2" "[0.2 0.2 0.2]"
     "$blendtintbybasealpha" "0"
 
     "$phong" "1"
     "$phongboost" "1.2"
     "$phongalbedotint" "1"
     "$phongalbedoboost" "5" //change this if not bright enough
-    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongfresnelranges" "[0.6 2.4 2]"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
@@ -32,9 +32,9 @@
         "MwEnvMapTint"
         {
             "min" "0"
-            "max" "1"
+            "max" "1.4"
             "envmap" "zeron\weapons\basp\specularity_00"
-            "color" "[0.376 0.167 0.086]"
+            "color" "[0.34 0.157 0.066]"
         }
     }
 }

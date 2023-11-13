@@ -448,7 +448,7 @@ SWEP.Animations = {
     },
 
     ["Melee"] = {
-        Sequences = {"melee_miss_01", "melee_miss_02"},
+        Sequences = {"melee_miss_01", "melee_miss_02", "melee_miss_03"},
         Length = 0.6, --if melee misses
 
         Size = 15,
@@ -464,7 +464,7 @@ SWEP.Animations = {
     },
 
     ["Melee_Hit"] = {
-        Sequences = {"melee_hit_01", "melee_hit_02"},
+        Sequences = {"melee_hit_01", "melee_hit_02", "melee_hit_03"},
         Length = 0.3, --if melee hits
 
         Damage = 45,
@@ -475,6 +475,28 @@ SWEP.Animations = {
             {Time = 0, Callback = function(self) self:DisableGrip() end},
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW_Melee.Flesh_Small")) end},
             {Time = 0.8, Callback = function(self) self:EnableGrip() end}
+        }
+    },
+	
+	    ["HybridOn"] = {
+        Sequences = {"hybrid_toggle_on"},
+        Fps = 30,
+        Length = 0.9,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0.15, Callback = function(self) self:DoSound(Sound("Flipsight.Up")) self:AllowRuntimeMagPoseParam(true) end}
+        }
+    },
+
+    ["HybridOff"] = {
+        Sequences = {"hybrid_toggle_off"},
+        Fps = 30,
+        Length = 0.9,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DisableGrip() self:AllowRuntimeMagPoseParam(true) end},
+            {Time = 0.767, Callback = function(self) self:EnableGrip() end},
+            {Time = 0.1, Callback = function(self) self:DoSound(Sound("Flipsight.Down")) end}
         }
     },
 }
