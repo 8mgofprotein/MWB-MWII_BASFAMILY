@@ -24,8 +24,6 @@ sound.Add({
 })
 
 
-sound.Add({
-
 -- Mike4 --
 sound.Add({
     name =           "weap_mpapax_fire_plr_shot_01",
@@ -39,9 +37,10 @@ sound.Add({
 			 "kyo/mwii/mpapax/weap_mpapax_fire_plr_shot_05.wav",
 			 "kyo/mwii/mpapax/weap_mpapax_fire_plr_shot_06.wav",
 			 "kyo/mwii/mpapax/weap_mpapax_fire_plr_shot_07.wav",
-			 "kyo/mwii/mpapax/weap_mpapax_fire_plr_shot_08.wav",
+			 "kyo/mwii/mpapax/weap_mpapax_fire_plr_shot_08.wav"
             }              
 })
+
 sound.Add({
     name =           "weap_mpapax_sup_plr_shot_01",
     channel =        CHAN_WEAPON,
@@ -54,9 +53,10 @@ sound.Add({
 			 "kyo/mwii/mpapax/weap_mpapax_sup_plr_shot_05.wav",
 			 "kyo/mwii/mpapax/weap_mpapax_sup_plr_shot_06.wav",
 			 "kyo/mwii/mpapax/weap_mpapax_sup_plr_shot_07.wav",
-			 "kyo/mwii/mpapax/weap_mpapax_sup_plr_shot_08.wav",
+			 "kyo/mwii/mpapax/weap_mpapax_sup_plr_shot_08.wav"
             }              
 })
+
 sound.Add({
     name =           "weap_pistol_sup_fire_plr_atmo_int1_01",
     channel =        CHAN_ATMO,
