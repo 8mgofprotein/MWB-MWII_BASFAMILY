@@ -1437,7 +1437,7 @@ $sequence "reload_empty_drum" {
 	{ event 5004 52 "fly_ar_standard_fast_bolt_release" }
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 58 "1" }
+	{ event 9011 80 "1" }
 	{ event 5004 66 "fly_ar_standard_grab_end_01" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
