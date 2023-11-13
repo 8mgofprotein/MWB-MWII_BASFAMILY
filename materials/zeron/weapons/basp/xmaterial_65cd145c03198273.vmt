@@ -1,16 +1,16 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "zeron\weapons\basp\xmaterial_64b90ad406a4897_rgb"
-    "$bumpmap" "zeron\weapons\basp\xmaterial_64b90ad406a4897_n"
-    "$phongexponenttexture" "zeron\weapons\basp\xmaterial_64b90ad406a4897_e"
+    "$basetexture" "zeron\weapons\basp\xmaterial_65cd145c03198273_rgb"
+    "$bumpmap" "zeron\weapons\basp\xmaterial_65cd145c03198273_n"
+    "$phongexponenttexture" "zeron\weapons\basp\xmaterial_65cd145c03198273_e"
 
     /////////////////
-    "$color2" "[0 0 0]"                                     //do not touch this
+    "$color2" "[.4 .4 .4]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
     "$phong" "1"
-    "$phongboost" "2"
+    "$phongboost" "2.2"
     "$phongalbedotint" "1"
     "$phongalbedoboost" "10"                                //toy around with this
     "$phongfresnelranges" "[1 0.1 0]"
@@ -25,8 +25,8 @@
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
     /////////////////
 
-    "$envmap" "zeron\weapons\basp\specularity_00"
-    "$envmaptint" "[0.169 0.169 0.169]"                 
+    "$envmap" "zeron\weapons\basp\specularity_25"
+    "$envmaptint" "[0.165 0.165 0.165]"                 
 
     //remove this if not using MWB
     "Proxies"
@@ -35,8 +35,8 @@
         {
             "min" "0"
             "max" "1"
-            "envmap" "zeron\weapons\basp\specularity_00"
-            "color" "[0.169 0.169 0.169]"
+            "envmap" "zeron\weapons\basp\specularity_25"
+            "color" "[0.165 0.165 0.165]"
         }
     }
 }
