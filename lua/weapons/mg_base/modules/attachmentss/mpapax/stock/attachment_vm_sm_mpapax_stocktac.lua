@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_stock"
-ATTACHMENT.Name = "FTAC Vagrant"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/charlie9/attachment_vm_sm_charlie9_fullstock.mdl")
+ATTACHMENT.Name = "Ravage-8"
+ATTACHMENT.Model = Model("models/kyo/att_vm_p08_sm_mpapax_stocktac_v0.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_fullstock.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

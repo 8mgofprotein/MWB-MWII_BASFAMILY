@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_stock"
-ATTACHMENT.Name = "ISO Collapsible"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/charlie9/attachment_vm_sm_charlie9_nostock.mdl")
+ATTACHMENT.Name = "BR Stockless Mod"
+ATTACHMENT.Model = Model("models/kyo/att_vm_p08_sm_mpapax_stockno_v0.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_nostock.vmt")
  ATTACHMENT.Bodygroups = {
      ["tag_stock"] = 1

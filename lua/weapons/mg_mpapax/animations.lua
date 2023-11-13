@@ -82,8 +82,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Xmag"] = {
-        Sequences = {"reload_Xmag"},
+    ["Reload_smag"] = {
+        Sequences = {"reload_smag"},
         Length = 2.6,
         Fps = 30,
         MagLength = 1.6,
@@ -100,8 +100,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Xmag_Fast"] = {
-        Sequences = {"reload_fast_Xmag"},
+    ["Reload_fast_smag"] = {
+        Sequences = {"reload_fast_smag"},
         Length = 1.5,
         Fps = 30,
         MagLength = 0.9,
@@ -196,8 +196,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Empty_Xmag"] = {
-        Sequences = {"reload_empty_Xmag"},
+    ["Reload_Empty_Smag"] = {
+        Sequences = {"reload_empty_smag"},
         Length = 2.6,
         Fps = 30,
         MagLength = 1.53,
@@ -217,8 +217,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Empty_Xmag_Fast"] = {
-        Sequences = {"reload_empty_Xmag_fast"},
+    ["Reload_empty_fast_smag"] = {
+        Sequences = {"reload_empty_fast_smag"},
         Length = 1.66,
         Fps = 30,
         MagLength = 0.9,
@@ -260,7 +260,7 @@ SWEP.Animations = {
     },
 
     ["Reload_Empty_Drum_Fast"] = {
-        Sequences = {"reload_empty_Drum_fast"},
+        Sequences = {"reload_empty_fast_drum"},
         Length = 1.66,
         Fps = 30,
         MagLength = 0.9,
@@ -403,8 +403,72 @@ SWEP.Animations = {
         
         }
     },
+    ["Inspect_drummag"] = {
+        Sequences = {"inspect_drum"},
+        Length = 4.366,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
+            {Time = 4.3, Callback = function(self) self:EnableGrip() end},
+            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_01")) end},
+            {Time = 2.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_02")) end},
+            {Time = 3.333, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_04")) end},
+            {Time = 4.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_05")) end},
+            {Time = 2.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_03")) end},
+        
+        }
+    },
+    ["Inspect_smag"] = {
+        Sequences = {"inspect_smag"},
+        Length = 4.366,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
+            {Time = 4.3, Callback = function(self) self:EnableGrip() end},
+            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_01")) end},
+            {Time = 2.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_02")) end},
+            {Time = 3.333, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_04")) end},
+            {Time = 4.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_05")) end},
+            {Time = 2.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_03")) end},
+        
+        }
+    },
     ["Inspect_empty"] = {
         Sequences = {"inspect_empty"},
+        Length = 4.366,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
+            {Time = 4.3, Callback = function(self) self:EnableGrip() end},
+            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_01")) end},
+            {Time = 2.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_02")) end},
+            {Time = 3.333, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_04")) end},
+            {Time = 4.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_05")) end},
+            {Time = 2.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_03")) end},
+        
+        }
+    },
+	["Inspect_empty_drummag"] = {
+        Sequences = {"inspect_drum_empty"},
+        Length = 4.366,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
+            {Time = 4.3, Callback = function(self) self:EnableGrip() end},
+            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_01")) end},
+            {Time = 2.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_02")) end},
+            {Time = 3.333, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_04")) end},
+            {Time = 4.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_05")) end},
+            {Time = 2.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_inspect_03")) end},
+        
+        }
+    },
+	["Inspect_empty_smag"] = {
+        Sequences = {"inspect_smag_empty"},
         Length = 4.366,
         Fps = 30,
         NextSequence = "Idle",

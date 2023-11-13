@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "FSS Nightshade"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/charlie9/attachment_vm_sm_charlie9_barsil.mdl")
+ATTACHMENT.Name = "10.5'' Bruen Typhon"
+ATTACHMENT.Model = Model("models/kyo/att_vm_p08_sm_mpapax_barsil_v0_LOD0.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_barsil.vmt")
 ATTACHMENT.ExcludedCategories = {"Muzzle Devices"}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
@@ -16,3 +16,8 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.94
     weapon:doSuppressorStats()
 end
+
+function ATTACHMENT:PostProcess(weapon)
+    BaseClass.PostProcess(self, weapon)
+    --weapon:SetGripPoseParameter("grip_barshort_offset")
+end 

@@ -1,10 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "att_vm_p08_sm_mpapax_stock_v0.mdl"
+$modelname "att_vm_p08_sm_mpapax_stocktac_v0.mdl"
 
 $bodygroup "slide"
 {
-	studio "att_vm_p08_sm_mpapax_stock_v0_LOD0.smd"
+	studio "att_vm_p08_sm_mpapax_stocktac_v0_LOD0.smd"
 }
 
 

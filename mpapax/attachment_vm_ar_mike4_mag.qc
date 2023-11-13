@@ -1,10 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "att_wm_p08_sm_mpapax_mag_v0.mdl"
+$modelname "att_wm_p08_sm_mpapax_smag_v0.mdl"
 
 $bodygroup "grip"
 {
-	studio "att_wm_p08_sm_mpapax_mag_v0_LOD0.smd"
+	studio "att_wm_p08_sm_mpapax_smag_v0_LOD0.smd"
 }
 
 $surfaceprop "default"

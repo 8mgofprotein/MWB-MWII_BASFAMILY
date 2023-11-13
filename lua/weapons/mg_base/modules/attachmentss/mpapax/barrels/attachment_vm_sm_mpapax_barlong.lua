@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_barrel"
-ATTACHMENT.Name = "FSS Revolution"
-ATTACHMENT.Model = Model("models/viper/mw/attachments/charlie9/attachment_vm_sm_charlie9_longbarrel.mdl")
+ATTACHMENT.Name = "12'' Bruen SZ-36"
+ATTACHMENT.Model = Model("models/kyo/att_vm_p08_sm_mpapax_barlong_v0_LOD0.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_longbarrel.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
@@ -19,5 +19,5 @@ end
 
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
-    -- weapon:SetGripPoseParameter("grip_smg_pose_offset")
+    weapon:SetGripPoseParameter("grip_barlong_offset")
 end 

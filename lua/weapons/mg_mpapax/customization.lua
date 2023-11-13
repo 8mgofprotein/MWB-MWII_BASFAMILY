@@ -22,11 +22,11 @@ end
 SWEP.Customization = {
     {"att_perk", "attachment_vm_sm_charlie9_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_rof"}, 
 
-    {"attachment_vm_sm_mpapax_stock"},
+    {"attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac"},
 
-    {"attachment_vm_sm_mpapax_mag"},
+    {"attachment_vm_sm_mpapax_mag", "attachment_vm_sm_mpapax_smag", "attachment_vm_sm_mpapax_drummag"},
 
-    {"attachment_vm_sm_mpapax_barrel",},
+    {"attachment_vm_sm_mpapax_barrel", "attachment_vm_sm_mpapax_barlong" , "attachment_vm_sm_mpapax_barshort" , "attachment_vm_sm_mpapax_barmini", "attachment_vm_sm_mpapax_barsil"},
 
     {"attachment_vm_sm_mpapax_pistgrip",},
 	
