@@ -1024,7 +1024,7 @@ $sequence "idle" {
 $sequence "holster" {
 	"mpapaxanims\vm_p08_sm_mpapax_drop.smd"
 	rotate -90
-	{ event 9011 0 "0" }
+	{ event 9011 0 "1" }
 	{ event 5004 0 "fly_ar_standard_putaway_01" }
 	fadein 0.2
 	fadeout 0.2
@@ -1055,7 +1055,7 @@ $sequence "draw" {
 	"mpapaxanims\vm_p08_sm_mpapax_raise.smd"
 	rotate -90
 	{ event 5004 0 "fly_ar_standard_pullout_01" }
-	{ event 9011 8 "1" }
+	{ event 9011 0 "1" }
 	{ event 5004 16 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1087,10 +1087,9 @@ $sequence "draw" {
 $sequence "semi_on" {
 	"mpapaxanims\vm_p08_sm_mpapax_selectsemi_off.smd"
 	rotate -90
-	{ event 9021 0 "0" }
 	{ event 5004 1 "p01_ar_ar_mike4_selector_on" }
 	{ event 5004 9 "Viewmodel.Small" }
-	{ event 9021 15 "1" }
+	{ event 9021 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1119,10 +1118,9 @@ $sequence "semi_on" {
 $sequence "semi_off" {
 	"mpapaxanims\vm_p08_sm_mpapax_selectsemi_on.smd"
 	rotate -90
-	{ event 9021 0 "0" }
 	{ event 5004 4 "p01_ar_ar_mike4_selector_off" }
 	{ event 5004 10 "Viewmodel.Small" }
-	{ event 9021 14 "1" }
+	{ event 9021 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1190,14 +1188,11 @@ $sequence "reload" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 8 "Viewmodel.Medium" }
-	{ event 5004 24 "fly_ar_standard_empty_mag_out" }
-	{ event 5004 38 "fly_ar_standard_empty_mag_in" }
 	{ event 5004 35 "Viewmodel.Small" }
-	{ event 9011 68 "1" }
-	{ event 5004 69 "fly_ar_standard_grab_end_01" }
+	{ event 9011 63 "1" }
 	{ event 5004 55 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1230,14 +1225,11 @@ $sequence "reload_fast" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 2 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 8 "Viewmodel.Medium" }
-	{ event 5004 24 "fly_ar_standard_empty_mag_out" }
-	{ event 5004 38 "fly_ar_standard_empty_mag_in" }
 	{ event 5004 35 "Viewmodel.Small" }
-	{ event 9011 40 "1" }
-	{ event 5004 40 "fly_ar_standard_grab_end_01" }
+	{ event 9011 38 "1" }
 	{ event 5004 40 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1270,21 +1262,11 @@ $sequence "reload_empty" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 19 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
 	{ event 5004 8 "Viewmodel.Medium" }
-	{ event 5004 8 "fly_ar_standard_empty_mag_out" }
-	{ event 9031 24 "ResetBullets" }
-	{ event 5004 41 "fly_ar_standard_empty_mag_in" }
-	{ event 5004 35 "Viewmodel.Small" }
-	{ event 5004 57 "fly_ar_standard_empty_mag_tap" }
-	{ event 5004 40 "Viewmodel.Medium" }
-	{ event 5004 72 "fly_ar_standard_empty_bolt_back" }
-	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 87 "1" }
-	{ event 5004 79 "fly_ar_standard_empty_bolt_release" }
-	{ event 5004 88 "fly_ar_standard_grab_end_01" }
+	{ event 9011 71 "1" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1317,21 +1299,10 @@ $sequence "reload_empty_fast" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 19 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
-	{ event 5004 8 "Viewmodel.Medium" }
-	{ event 5004 8 "fly_ar_standard_empty_mag_out" }
-	{ event 9031 24 "ResetBullets" }
-	{ event 5004 41 "fly_ar_standard_empty_mag_in" }
-	{ event 5004 35 "Viewmodel.Small" }
-	{ event 5004 57 "fly_ar_standard_empty_mag_tap" }
-	{ event 5004 40 "Viewmodel.Medium" }
-	{ event 5004 72 "fly_ar_standard_empty_bolt_back" }
-	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 40 "1" }
-	{ event 5004 40 "fly_ar_standard_empty_bolt_release" }
-	{ event 5004 40 "fly_ar_standard_grab_end_01" }
+	{ event 9011 37 "1" }
 	{ event 5004 40 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1364,7 +1335,7 @@ $sequence "reload_drum" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 13 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "p01_ar_mike4_reload_empty_xmaglrg_shake" }
 	{ event 5004 30 "MW_MagazineDrop.AR.Poly -10,10,40" }
 	{ event 5004 8 "Viewmodel.Medium" }
@@ -1376,7 +1347,7 @@ $sequence "reload_drum" {
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 70 "p01_ar_mike4_reload_empty_xmaglrg_charge" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 78 "1" }
+	{ event 9011 80 "1" }
 	{ event 5004 79 "p01_ar_mike4_reload_xmaglrg_end" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
@@ -1410,7 +1381,7 @@ $sequence "reload_fast_drum" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 13 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "p01_ar_mike4_reload_empty_xmaglrg_shake" }
 	{ event 5004 30 "MW_MagazineDrop.AR.Poly -10,10,40" }
 	{ event 5004 8 "Viewmodel.Medium" }
@@ -1422,7 +1393,7 @@ $sequence "reload_fast_drum" {
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 70 "p01_ar_mike4_reload_empty_xmaglrg_charge" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 40 "1" }
+	{ event 9011 50 "1" }
 	{ event 5004 40 "p01_ar_mike4_reload_xmaglrg_end" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
@@ -1456,7 +1427,7 @@ $sequence "reload_empty_drum" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 18 "fly_ar_standard_fast_mag_out" }
@@ -1466,7 +1437,7 @@ $sequence "reload_empty_drum" {
 	{ event 5004 52 "fly_ar_standard_fast_bolt_release" }
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 65 "1" }
+	{ event 9011 37 "1" }
 	{ event 5004 66 "fly_ar_standard_grab_end_01" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
@@ -1500,7 +1471,7 @@ $sequence "reload_empty_fast_drum" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 18 "fly_ar_standard_fast_mag_out" }
@@ -1510,7 +1481,7 @@ $sequence "reload_empty_fast_drum" {
 	{ event 5004 52 "fly_ar_standard_fast_bolt_release" }
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 65 "1" }
+	{ event 9011 50 "1" }
 	{ event 5004 66 "fly_ar_standard_grab_end_01" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
@@ -1544,7 +1515,7 @@ $sequence "reload_smag" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 21 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
 	{ event 5004 8 "Viewmodel.Medium" }
@@ -1556,7 +1527,7 @@ $sequence "reload_smag" {
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 72 "fly_ar_standard_empty_bolt_back" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 40 "1" }
+	{ event 9011 64 "1" }
 	{ event 5004 40 "fly_ar_standard_empty_bolt_release" }
 	{ event 5004 40 "fly_ar_standard_grab_end_01" }
 	{ event 5004 69 "Viewmodel.Small" }
@@ -1591,7 +1562,7 @@ $sequence "reload_fast_smag" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 21 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
 	{ event 5004 8 "Viewmodel.Medium" }
@@ -1603,7 +1574,7 @@ $sequence "reload_fast_smag" {
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 44 "fly_ar_standard_empty_bolt_back" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 40 "1" }
+	{ event 9011 38 "1" }
 	{ event 5004 40 "fly_ar_standard_empty_bolt_release" }
 	{ event 5004 40 "fly_ar_standard_grab_end_01" }
 	{ event 5004 40 "Viewmodel.Small" }
@@ -1638,7 +1609,7 @@ $sequence "reload_empty_smag" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 18 "fly_ar_standard_fast_mag_out" }
@@ -1648,7 +1619,7 @@ $sequence "reload_empty_smag" {
 	{ event 5004 52 "fly_ar_standard_fast_bolt_release" }
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 64 "1" }
+	{ event 9011 71 "1" }
 	{ event 5004 65 "fly_ar_standard_grab_end_01" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
@@ -1682,7 +1653,7 @@ $sequence "reload_empty_fast_smag" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 0 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 0 "fly_ar_standard_cloth" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 18 "fly_ar_standard_fast_mag_out" }
@@ -1692,7 +1663,7 @@ $sequence "reload_empty_fast_smag" {
 	{ event 5004 52 "fly_ar_standard_fast_bolt_release" }
 	{ event 5004 40 "Viewmodel.Medium" }
 	{ event 5004 54 "Viewmodel.Large" }
-	{ event 9011 64 "1" }
+	{ event 9011 37 "1" }
 	{ event 5004 65 "fly_ar_standard_grab_end_01" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
@@ -1761,10 +1732,8 @@ $sequence "fire" {
 $sequence "inspect" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect.smd"
 	rotate -90
-	{ event 5004 1 "fly_ar_standard_inspect_pt1" }
-	{ event 9011 4 "0" }
-	{ event 5004 60 "fly_ar_standard_inspect_pt2" }
-	{ event 9011 60 "1" }
+	{ event 9011 3 "0" }
+	{ event 9011 158 "1" }
 	{ event 5004 60 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1794,10 +1763,8 @@ $sequence "inspect" {
 $sequence "inspect_drum" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect_drum.smd"
 	rotate -90
-	{ event 5004 1 "fly_ar_standard_inspect_pt1" }
-	{ event 9011 4 "0" }
-	{ event 5004 60 "fly_ar_standard_inspect_pt2" }
-	{ event 9011 60 "1" }
+	{ event 9011 3 "0" }
+	{ event 9011 97 "1" }
 	{ event 5004 60 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1826,11 +1793,8 @@ $sequence "inspect_drum" {
 
 $sequence "inspect_smag" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect_smag.smd"
-	rotate -90
-	{ event 5004 1 "fly_ar_standard_inspect_pt1" }
-	{ event 9011 4 "0" }
-	{ event 5004 60 "fly_ar_standard_inspect_pt2" }
-	{ event 9011 60 "1" }
+	{ event 9011 3 "0" }
+	{ event 9011 158 "1" }
 	{ event 5004 60 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1860,11 +1824,9 @@ $sequence "inspect_smag" {
 $sequence "inspect_empty" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect_empty.smd"
 	rotate -90
-	{ event 5004 1 "fly_ar_standard_inspect_pt1" }
-	{ event 9011 4 "0" }
-	{ event 5004 40 "fly_ar_standard_inspect_pt2" }
-	{ event 9011 40 "1" }
-	{ event 5004 40 "Viewmodel.Small" }
+	{ event 9011 3 "0" }
+	{ event 9011 212 "1" }
+	{ event 5004 60 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1893,11 +1855,9 @@ $sequence "inspect_empty" {
 $sequence "inspect_drum_empty" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect_drum_empty.smd"
 	rotate -90
-	{ event 5004 1 "fly_ar_standard_inspect_pt1" }
-	{ event 9011 4 "0" }
-	{ event 5004 40 "fly_ar_standard_inspect_pt2" }
-	{ event 9011 40 "1" }
-	{ event 5004 40 "Viewmodel.Small" }
+	{ event 9011 3 "0" }
+	{ event 9011 212 "1" }
+	{ event 5004 60 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1926,10 +1886,8 @@ $sequence "inspect_drum_empty" {
 $sequence "inspect_smag_empty" {
 	"mpapaxanims\vm_p08_sm_mpapax_inspect_smag_empty.smd"
 	rotate -90
-	{ event 5004 1 "fly_ar_standard_inspect_pt1" }
-	{ event 9011 4 "0" }
-	{ event 5004 60 "fly_ar_standard_inspect_pt2" }
-	{ event 9011 60 "1" }
+	{ event 9011 3 "0" }
+	{ event 9011 212 "1" }
 	{ event 5004 60 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -2208,7 +2166,7 @@ $sequence "hybrid_toggle_on" {
 $sequence "hybrid_toggle_off" {
 	"mpapaxanims\vm_p08_sm_mpapax_hybrid01_on.smd"
 	rotate -90
-	{ event 9011 2 "0" }
+	{ event 9011 1 "0" }
 	{ event 5004 4 "Flipsight.Down" }
 	{ event 5004 16 "Viewmodel.Small" }
 	{ event 9011 20 "1" }
