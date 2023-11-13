@@ -38,6 +38,9 @@ SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
 SWEP.Primary.RPM = 900  
 SWEP.CanChamberRound = true  
+SWEP.EmptyFreezeInspectDelta = 0.15
+SWEP.FreezeInspectDelta = 0.22
+
   
 SWEP.ParticleEffects = {
     ["MuzzleFlash"] = "AC_muzzle_rifle",
