@@ -2,15 +2,15 @@
 //https://developer.valvesoftware.com/wiki/$phong
 "VertexLitGeneric"
 {
-    "$basetexture" "zeron\weapons\basp\xmaterial_7b24f89ba8a42668_rgb"
+    "$basetexture" "zeron\weapons\basp\xmaterial_3ae26ef8d0b8b7dc_rgb"
     "$bumpmap" "zeron\weapons\basp\xmaterial_7b24f89ba8a42668_n"
     "$phongexponenttexture" "zeron\weapons\basp\xmaterial_7b24f89ba8a42668_e"
-
+    "$color" "[.6 .6 .6]"
 
     "$translucent" "1"
 
     "$phong" "1"
-    "$phongboost" "1"
+    "$phongboost" "1.6"
     "$phongalbedotint" "1"
     "$phongalbedoboost" "1" //change this if not bright enough
     "$phongfresnelranges" "[1 0.5 0]"
@@ -23,8 +23,9 @@
 
     "$normalmapalphaenvmapmask" "1"
     "$envmapfresnel" "1"
-    "$envmap" "env_cubemap"
-    "$envmaptint" "[0.2 0.2 0.2]"
+    "$envmap" "zeron\weapons\basp\specularity_00"
+    "$envmaptint" "[.05 .05 .05]"
+
 
     //remove this if viewing outside of MWB
     "Proxies"
@@ -34,6 +35,7 @@
             "specularity" "0.5"             //0.25, 0.5, 0.75, 1
             "min" "0"
             "max" "0.2"                       //change this if too bright in game
+            "envmap" "zeron\weapons\basp\specularity_00"
         }
     }
 }
