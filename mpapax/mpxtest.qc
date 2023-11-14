@@ -1289,7 +1289,7 @@ $sequence "reload_empty" {
 	{ event 5004 35 "Viewmodel.Small" }
 	{ event 5004 61 "wfoly_plr_sm_mpapa7_reload_empty_bolt_release" }
 	{ event 5004 68 "wfoly_plr_sm_mpapa7_reload_empty_end" }
-	{ event 9011 71 "1" }
+	{ event 9011 70 "1" }
 	{ event 5004 69 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
