@@ -7,6 +7,7 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
     weapon.HoldType = "Rifle"
+
     weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.2
     weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.7
     weapon.Cone.Hip = weapon.Cone.Hip * 0.83

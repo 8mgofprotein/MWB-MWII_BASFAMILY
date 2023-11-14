@@ -40,7 +40,7 @@ SWEP.Primary.RPM = 870
 SWEP.CanChamberRound = true  
 SWEP.EmptyFreezeInspectDelta = 0.15
 SWEP.FreezeInspectDelta = 0.22
-
+SWEP.AlternateGrips = false
   
 SWEP.ParticleEffects = {
     ["MuzzleFlash"] = "AC_muzzle_rifle",
@@ -112,7 +112,7 @@ SWEP.Recoil = {
 }
 
 SWEP.Bullet = {
-    Damage = {20, 11}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
+    Damage = {27, 14}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
     EffectiveRange = 36, --in meters, damage scales within this distance
     DropOffStartRange = 11, --in meters, damage will start dropping off after this range
     Range = 100, --in meters, after this distance the bullet stops existing

@@ -82,7 +82,7 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_smag"] = {
+    ["Reload_Smag"] = {
         Sequences = {"reload_smag"},
         Length = 2.6,
         Fps = 30,
@@ -100,7 +100,7 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_fast_smag"] = {
+    ["Reload_Fast_Smag"] = {
         Sequences = {"reload_fast_smag"},
         Length = 1.5,
         Fps = 30,
@@ -217,7 +217,7 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_empty_fast_smag"] = {
+    ["Reload_Empty_Fast_Smag"] = {
         Sequences = {"reload_empty_fast_smag"},
         Length = 1.66,
         Fps = 30,

@@ -1107,7 +1107,9 @@ $sequence "semi_on" {
 	addlayer "grip_hip_offset"
 	addlayer "grip_barlong_offset"
  	addlayer "grip_barshort_offset"
- 
+   	addlayer "grip_barshort_gripang_offset"
+   	addlayer "grip_barshort_gripvert_offset"
+    addlayer "grip_barshort_gripvertpro_offset"
 	addlayer "hybrid_offset"
 	snap
 	fps 30

@@ -139,7 +139,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"reloads/iw8_mpapa5/wfoly_plr_sm_mpapa7_reload_empty_end.wav",
+		"kyo/mwii/mpapax/wfoly_plr_sm_mpapa7_reload_empty_end.wav",
 		}
 })
 -- Sound: 25
@@ -150,7 +150,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"reloads/iw8_mpapa5/wfoly_plr_sm_mpapa7_reload_empty_lift.wav",
+		"kyo/mwii/mpapax/wfoly_plr_sm_mpapa7_reload_empty_lift.wav",
 		}
 })
 -- Sound: 26

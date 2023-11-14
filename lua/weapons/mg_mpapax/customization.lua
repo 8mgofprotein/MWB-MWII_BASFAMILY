@@ -20,7 +20,7 @@ function SWEP:doSuppressorStats()
 end
 
 SWEP.Customization = {
-    {"att_perk", "attachment_vm_sm_charlie9_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_rof"}, 
+    {"att_perk", "attachment_vm_sm_mpapax_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_rof"}, 
 
     {"attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac"},
 
