@@ -326,6 +326,6 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"kyo/mwii/mpapax/weap_mpapax_inspect_boltclose.wav",
+		"kyo/mwii/mpapax/weap_mpapax_inspect_boltclose.ogg",
 		}
 })
