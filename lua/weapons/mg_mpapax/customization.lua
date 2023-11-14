@@ -43,12 +43,12 @@ SWEP.Customization = {
     "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01", "att_vm_2x_west01",
     "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02"},
 
-    {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_charlie9_laser02", 
-    "attachment_vm_sm_charlie9_laser03"},
+    {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_mpapax_laser02", 
+    "attachment_vm_sm_mpapax_laser03"},
 
-    {"att_grip", "attachment_vm_sm_charlie9_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_charlie9_angledgrip02", "attachment_vm_sm_mpapax_stubbygrip01", 
-    "attachment_vm_sm_charlie9_stubbygrip02", "attachment_vm_sm_charlie9_vertgrip01", "attachment_vm_sm_charlie9_vertgrip02", 
-    "attachment_vm_sm_charlie9_vertgrip03"},
+    {"att_grip", "attachment_vm_sm_mpapax_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_mpapax_angledgrip02", "attachment_vm_sm_mpapax_stubbygrip01", 
+    "attachment_vm_sm_mpapax_stubbygrip02", "attachment_vm_sm_mpapax_vertgrip01", "attachment_vm_sm_mpapax_vertgrip02", 
+    "attachment_vm_sm_mpapax_vertgrip03"},
 }
 
 --NECESSARY: it loads custom attachments from other authors
