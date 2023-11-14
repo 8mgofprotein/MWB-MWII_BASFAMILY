@@ -21,7 +21,9 @@ function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
         weapon.Primary.ClipSize = 20
         weapon.Animations.Reload = weapon.Animations.Reload_smag
+		weapon.Animations.Reload_Fast = weapon.Animations.Reload_Smag_Fast
         weapon.Animations.Reload_Empty = weapon.Animations.Reload_Empty_Smag
+		weapon.Animations.Reload_Empty_Fast = weapon.Animations.Reload_Empty_Fast_Smag
 		weapon.Animations.Inspect = weapon.Animations.Inspect_smag
 		weapon.Animations.Inspect_empty = weapon.Animations.Inspect_empty_smag
         weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.93

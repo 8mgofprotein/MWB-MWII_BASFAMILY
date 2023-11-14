@@ -100,7 +100,7 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Fast_Smag"] = {
+    ["Reload_Smag_Fast"] = {
         Sequences = {"reload_fast_smag"},
         Length = 1.5,
         Fps = 30,
