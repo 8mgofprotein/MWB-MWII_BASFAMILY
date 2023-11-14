@@ -463,10 +463,7 @@ $poseparameter "sprint_offset" 0 1 loop 0
 $poseparameter "freefall_loop" 0 1 loop 0
 $poseparameter "empty_offset" 0 1 loop 0
 $poseparameter "grip_vert_offset" 0 1 loop 0
-$poseparameter "grip_vertpro_offset" 0 1 loop 0
 $poseparameter "grip_ang_offset" 0 1 loop 0
-$poseparameter "grip_hip_blend" 0 1 loop 0
-$poseparameter "grip_barlong_offset" 0 1 loop 0
 $poseparameter "grip_barmini_offset" 0 1 loop 0
 $poseparameter "hybrid_offset" 0 1 loop 0
 
@@ -548,19 +545,17 @@ $animation "a_delta_empty_additive_for_offset_corrective_animation" "anims\corre
 $animation "a_grip_vert_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_vert_idle_to_sub_corrective_animation.smd" {
 }
 
-$animation "a_delta_grip_vert_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l.smd" {
+$animation "a_delta_grip_vert_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l_gripvertpro.smd" {
 }
 
 $animation "a_grip_vertpro_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_vertpro_idle_to_sub_corrective_animation.smd" {
 }
 
-$animation "a_delta_grip_vertpro_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_gripverpro_cor.smd" {
-}
 
 $animation "a_grip_ang_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_ang_idle_to_sub_corrective_animation.smd" {
 }
 
-$animation "a_delta_grip_ang_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_gripang_Cor.smd" {
+$animation "a_delta_grip_ang_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l.smd" {
 }
 
 $animation "a_grip_hip_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_hip_idle_to_sub_corrective_animation.smd" {
@@ -569,25 +564,20 @@ $animation "a_grip_hip_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_gri
 $animation "a_delta_grip_hip_additive_for_offset_corrective_animation" "v_smgolf45_anims\a_delta_grip_hip_additive_for_offset_corrective_animation.smd" {
 }
 
-$animation "a_delta_grip_barlong_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_barlong_cor.smd" {
+$animation "a_delta_grip_barshort_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l_barshort.smd" {
 }
 
-$animation "a_delta_grip_barshort_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l.smd" {
+$animation "a_delta_grip_barshort_gripang_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l.smd" {
 }
 
-$animation "a_delta_grip_barshort_gripang_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_barshort_cor.smd" {
+$animation "a_delta_grip_barshort_gripvert_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l_gripvert.smd" {
 }
 
-$animation "a_delta_grip_barshort_gripvert_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_gripverpro_barshort_cor.smd" {
-}
-
-$animation "a_delta_grip_barshort_gripvertpro_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_gripver_barshort_cor.smd" {
-}
 
 $animation "a_grip_killtheclamp_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_killtheclamp_idle_to_sub_corrective_animation.smd" {
 }
 
-$animation "a_delta_grip_barmini_additive_for_offset_corrective_animation" "anims\vm_p08_sm_mpapax_pose_l_vanilla.smd" {
+$animation "a_delta_grip_barmini_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l.smd" {
 }
 
 
@@ -859,7 +849,7 @@ $animation "a_grip_vert_idle_to_sub" "v_smgolf45_anims\a_grip_vert_idle_to_sub.s
 	subtract "a_grip_vert_idle_to_sub_corrective_animation" 0
 }
 
-$animation "a_delta_grip_vert_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_gripvert.smd" {
+$animation "a_delta_grip_vert_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_gripvert.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_vert_additive_for_offset_corrective_animation" 0
@@ -877,11 +867,6 @@ $animation "a_grip_vertpro_idle_to_sub" "v_smgolf45_anims\a_grip_vertpro_idle_to
 	subtract "a_grip_vertpro_idle_to_sub_corrective_animation" 0
 }
 
-$animation "a_delta_grip_vertpro_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_vertshort.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_delta_grip_vertpro_additive_for_offset_corrective_animation" 0
-}
 
 $animation "grip_ang_idle_to_sub" "v_smgolf45_anims\grip_ang_idle_to_sub.smd" {
 	fps 30
@@ -895,7 +880,7 @@ $animation "a_grip_ang_idle_to_sub" "v_smgolf45_anims\a_grip_ang_idle_to_sub.smd
 	subtract "a_grip_ang_idle_to_sub_corrective_animation" 0
 }
 
-$animation "a_delta_grip_ang_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_gripang.smd" {
+$animation "a_delta_grip_ang_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_gripang.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_ang_additive_for_offset_corrective_animation" 0
@@ -918,31 +903,20 @@ $animation "a_delta_grip_hip_additive_for_offset" "v_smgolf45_anims\a_delta_grip
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_hip_additive_for_offset_corrective_animation" 0
 }
-
-$animation "a_delta_grip_barlong_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_barlong.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_delta_grip_barlong_additive_for_offset_corrective_animation" 0
-}
 $animation "a_delta_grip_barshort_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_barshort.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_barshort_additive_for_offset_corrective_animation" 0
 }
-$animation "a_delta_grip_barshort_gripang_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_gripang_barshort.smd" {
+$animation "a_delta_grip_barshort_gripang_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_gripangshort.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_barshort_gripang_additive_for_offset_corrective_animation" 0
 }
-$animation "a_delta_grip_barshort_gripvert_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_gripvert_barshort.smd" {
+$animation "a_delta_grip_barshort_gripvert_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_gripvertshort.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_barshort_gripvert_additive_for_offset_corrective_animation" 0
-}
-$animation "a_delta_grip_barshort_gripvertpro_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_vertshort_barshort.smd" {
-	fps 30
-	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
-	subtract "a_delta_grip_barshort_gripvertpro_additive_for_offset_corrective_animation" 0
 }
 
 $animation "grip_killtheclamp_idle_to_sub" "v_smgolf45_anims\grip_killtheclamp_idle_to_sub.smd" {
@@ -957,7 +931,7 @@ $animation "a_grip_killtheclamp_idle_to_sub" "v_smgolf45_anims\a_grip_killthecla
 	subtract "a_grip_killtheclamp_idle_to_sub_corrective_animation" 0
 }
 
-$animation "a_delta_grip_barmini_additive_for_offset" "anims\vm_p08_sm_mpapax_pose_l_barmini.smd" {
+$animation "a_delta_grip_barmini_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_barshort_hvy.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_barmini_additive_for_offset_corrective_animation" 0
@@ -1004,14 +978,14 @@ $sequence "idle" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	addlayer "a_idle_active"
 	fps 0.416
@@ -1034,14 +1008,14 @@ $sequence "holster" {
 	addlayer "freefall_loop"
 	addlayer "aim_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	snap
 	fps 30
@@ -1067,14 +1041,14 @@ $sequence "draw" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	snap
 	fps 30
@@ -1099,15 +1073,15 @@ $sequence "semi_on" {
 	addlayer "aim_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_hip_offset"
-	addlayer "grip_barlong_offset"
+	
+	
  	addlayer "grip_barshort_offset"
    	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	snap
 	fps 30
@@ -1132,14 +1106,14 @@ $sequence "semi_off" {
 	addlayer "aim_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	snap
 	fps 30
@@ -1168,14 +1142,14 @@ $sequence "draw_first" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	snap
 	fps 30
@@ -1212,14 +1186,14 @@ $sequence "reload" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1256,14 +1230,14 @@ $sequence "reload_fast" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1300,14 +1274,14 @@ $sequence "reload_empty" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1344,14 +1318,14 @@ $sequence "reload_empty_fast" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1387,14 +1361,14 @@ $sequence "reload_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1431,14 +1405,14 @@ $sequence "reload_fast_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1477,14 +1451,14 @@ $sequence "reload_empty_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1522,14 +1496,14 @@ $sequence "reload_empty_fast_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1564,14 +1538,14 @@ $sequence "reload_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1607,14 +1581,14 @@ $sequence "reload_fast_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1650,14 +1624,14 @@ $sequence "reload_empty_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1693,14 +1667,14 @@ $sequence "reload_empty_fast_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1735,14 +1709,14 @@ $sequence "reload_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1778,14 +1752,14 @@ $sequence "reload_fast_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1821,14 +1795,14 @@ $sequence "reload_empty_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1864,14 +1838,14 @@ $sequence "reload_empty_fast_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1900,14 +1874,14 @@ $sequence "fire" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	snap
 	fps 30
@@ -1942,14 +1916,14 @@ $sequence "inspect" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -1983,14 +1957,14 @@ $sequence "inspect_xmag" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2023,14 +1997,14 @@ $sequence "inspect_xmaglrg" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2063,14 +2037,14 @@ $sequence "inspect_smag" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2117,14 +2091,14 @@ $sequence "inspect_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2171,14 +2145,14 @@ $sequence "inspect_xmag_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2224,14 +2198,14 @@ $sequence "inspect_xmaglrg_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2277,14 +2251,14 @@ $sequence "inspect_smag_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2313,14 +2287,14 @@ $sequence "melee_miss_01" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
  	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2349,14 +2323,14 @@ $sequence "melee_miss_02" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2385,14 +2359,14 @@ $sequence "melee_miss_03" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2421,14 +2395,14 @@ $sequence "melee_hit_01" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2457,14 +2431,14 @@ $sequence "melee_hit_02" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2493,14 +2467,14 @@ $sequence "melee_hit_03" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2526,14 +2500,14 @@ $sequence "hybrid_toggle_on" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	snap
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2559,14 +2533,14 @@ $sequence "hybrid_toggle_off" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	snap
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2591,14 +2565,14 @@ $sequence "ads_in" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2623,14 +2597,14 @@ $sequence "ads_out" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0  
@@ -2716,14 +2690,14 @@ $sequence "sprint_in" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 1.25
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0  
@@ -2766,14 +2740,14 @@ $sequence "sprint_out" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 1.25
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0  
@@ -2839,14 +2813,14 @@ $sequence "jump_land" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 1.363
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0  
@@ -2879,14 +2853,14 @@ $sequence "jump" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 2.727
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0  
@@ -2915,42 +2889,10 @@ $sequence "grip_vert_offset" {
 	realtime
 }
 
-$sequence "grip_vertpro_offset" {
-	"a_grip_vertpro_idle_to_sub"
-	"a_delta_grip_vertpro_additive_for_offset"
-	blend "grip_vertpro_offset" 0 1
-	blendwidth 2
-	delta
-	fadein 0.2
-	fadeout 0.2
-	realtime
-}
-
 $sequence "grip_ang_offset" {
 	"a_grip_ang_idle_to_sub"
 	"a_delta_grip_ang_additive_for_offset"
 	blend "grip_ang_offset" 0 1
-	blendwidth 2
-	delta
-	fadein 0.2
-	fadeout 0.2
-	realtime
-}
-
-$sequence "grip_hip_offset" {
-	"a_grip_hip_idle_to_sub"
-	"a_delta_grip_hip_additive_for_offset"
-	blend "grip_hip_blend" 0 1
-	blendwidth 2
-	delta
-	fadein 0.2
-	fadeout 0.2
-	realtime
-}
-$sequence "grip_barlong_offset" {
-	"a_grip_hip_idle_to_sub"
-	"a_delta_grip_barlong_additive_for_offset"
-	blend "grip_barlong_offset" 0 1
 	blendwidth 2
 	delta
 	fadein 0.2
@@ -2983,16 +2925,6 @@ $sequence "grip_barshort_gripvert_offset" {
 	"a_grip_hip_idle_to_sub"
 	"a_delta_grip_barshort_gripvert_additive_for_offset"
 	blend "grip_barshort_gripvert_offset" 0 1
-	blendwidth 2
-	delta
-	fadein 0.2
-	fadeout 0.2
-	realtime
-}
-$sequence "grip_barshort_gripvertpro_offset" {
-	"a_grip_hip_idle_to_sub"
-	"a_delta_grip_barshort_gripvertpro_additive_for_offset"
-	blend "grip_barshort_gripvertpro_offset" 0 1
 	blendwidth 2
 	delta
 	fadein 0.2
@@ -3047,14 +2979,14 @@ $sequence "jog_out" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	addlayer "grip_vertpro_offset"
+	
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
-	addlayer "grip_barlong_offset"
+	
  	addlayer "grip_barshort_offset"
   	addlayer "grip_barshort_gripang_offset"
    	addlayer "grip_barshort_gripvert_offset"
-    addlayer "grip_barshort_gripvertpro_offset"
+
 	addlayer "hybrid_offset"
 	fps 1.304
 	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0  
