@@ -1,7 +1,8 @@
-ATTACHMENT.Base = "att_vm_laser02_cylinder"
-ATTACHMENT.Bodygroups ={
+ATTACHMENT.Base = "att_vm_laser03_cylinder"
+ATTACHMENT.AttachmentBodygroups ={
     ["laser"] = 1
 }
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
