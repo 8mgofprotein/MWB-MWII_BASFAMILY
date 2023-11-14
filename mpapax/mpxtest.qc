@@ -24,6 +24,8 @@ $illumposition 0 0 0
 
 $mostlyopaque
 
+$cdmaterials "zeron/weapons/chimera/"
+$cdmaterials "zeron/weapons/m13/"
 $cdmaterials "zeron/weapons/basp/"
 
 $attachment "muzzle" "tag_flash" 0 0 0 rotate 0 0 0
