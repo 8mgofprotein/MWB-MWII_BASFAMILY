@@ -100,24 +100,24 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Smag_Fast"] = {
+    ["Reload_Fast_Smag"] = {
         Sequences = {"reload_fast_smag"},
-        Length = 1.5,
+        Length = 1.6,
         Fps = 30,
-        MagLength = 0.9,
+        MagLength = 1.1	,
         NextSequence = "Idle",
         Events = {
-            {Time = 1.1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-5, 0, 40)) end},
-            {Time = 0.533, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_xmag_03")) end},
-            {Time = 0.233, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_xmag_02")) end},
+            {Time = 0, Callback = function(self) end},
             {Time = 0.1, Callback = function(self) self:DisableGrip() end},
-            {Time = 1.167, Callback = function(self) self:EnableGrip() end},
-            {Time = 0.033, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_xmag_01")) end},
-            {Time = 1.267, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_xmag_05")) end},
-            {Time = 0.8, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_xmag_04")) end},
+            {Time = 1.467, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_04")) end},
+            {Time = 0.933, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_03")) end},
+            {Time = 0.7, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_02")) end},
+            {Time = 0.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_01")) end},
+            {Time = 2.3, Callback = function(self) self:EnableGrip() end},
+            {Time = 1.933, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_05")) end},
         }
     },
-
+	
     ["Reload_Drum"] = {
         Sequences = {"reload_Drum"},
         Length = 2.7,

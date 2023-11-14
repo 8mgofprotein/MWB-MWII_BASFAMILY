@@ -8,6 +8,6 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Reload_Empty_Xmag = weapon.Animations.Reload_Empty_Xmag_Fast
     weapon.Animations.Reload_Drum = weapon.Animations.Reload_Drum_Fast
     weapon.Animations.Reload_Empty_Drum = weapon.Animations.Reload_Empty_Drum_Fast
-	weapon.Animations.Reload_Smag = weapon.Animations.Reload_Fast_Smag
+	weapon.Animations.Reload_Smag = weapon.Animations.Reload_SOH_Smag
     weapon.Animations.Reload_Empty_Smag = weapon.Animations.Reload_Empty_Fast_Smag
 end
