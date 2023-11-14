@@ -41,7 +41,7 @@ SWEP.Customization = {
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
     "att_vm_reflex_east02", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
     "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01", "att_vm_2x_west01",
-    "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02", "att_vm_hybrid_west02_thermal"},
+    "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02"},
 
     {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_charlie9_laser02", 
     "attachment_vm_sm_charlie9_laser03"},
