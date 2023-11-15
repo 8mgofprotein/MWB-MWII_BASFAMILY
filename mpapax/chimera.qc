@@ -11,8 +11,8 @@ $bodygroup "receiver"
 }
 $bodygroup "tag_sight"
 {
-	blank
-	blank
+	studio "att_vm_p08_ar_mcbravo_rec_v0_sight_on.smd"
+	studio "att_vm_p08_ar_mcbravo_rec_v0_sight_off.smd"
 	blank
 }
 
