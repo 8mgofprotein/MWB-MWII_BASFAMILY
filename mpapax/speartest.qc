@@ -11,8 +11,8 @@ $bodygroup "receiver"
 }
 $bodygroup "tag_sight"
 {
-	blank
-	blank
+	studio "vm_jup_cp08_br_xmike5_rec_000_sight_on.smd"
+	studio "vm_jup_cp08_br_xmike5_rec_000_sight_off.smd"
 	blank
 }
 
