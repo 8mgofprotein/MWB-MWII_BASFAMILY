@@ -1057,7 +1057,7 @@ $sequence "draw" {
 }
 
 $sequence "semi_on" {
-	"m13anims\vm_p08_ar_mcbravo_selectsemi_on.smd"
+	"m13anims\vm_p08_ar_mcbravo_selectsemi_off.smd"
 	rotate -90
 	{ event 5004 1 "weap_ar_mcbravo_selector_on" }
 	{ event 5004 9 "Viewmodel.Small" }
@@ -1090,7 +1090,7 @@ $sequence "semi_on" {
 }
 
 $sequence "semi_off" {
-	"m13anims\vm_p08_ar_mcbravo_selectsemi_off.smd"
+	"m13anims\vm_p08_ar_mcbravo_selectsemi_on.smd"
 	rotate -90
 	{ event 5004 4 "weap_ar_mcbravo_selector_off" }
 	{ event 5004 10 "Viewmodel.Small" }
@@ -1683,7 +1683,7 @@ $sequence "reload_empty_fast_xmaglrg" {
 
 $sequence "reload_smag" {
 	"m13anims\vm_p08_ar_mcbravo_reload_smag.smd"
-	"m13anims\vm_p08_ar_mcbravo_reload_xmag_ads.smd"
+	"m13anims\vm_p08_ar_mcbravo_reload_smag_ads.smd"
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
@@ -1768,7 +1768,7 @@ $sequence "reload_fast_smag" {
 
 $sequence "reload_empty_smag" {
 	"m13anims\vm_p08_ar_mcbravo_reload_empty_smag.smd"
-	"m13anims\vm_p08_ar_mcbravo_reload_empty_xmag_ads.smd"
+	"m13anims\vm_p08_ar_mcbravo_reload_empty_smag_ads.smd"
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
