@@ -1,10 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "att_wm_p08_ar_mcbravo_mag_v0_LOD0.mdl"
+$modelname "wm_jup_cp08_br_xmike5_mag_45_277f_000_LOD0.mdl"
 
 $bodygroup "grip"
 {
-	studio "att_wm_p08_ar_mcbravo_mag_v0_LOD0.smd"
+	studio "wm_jup_cp08_br_xmike5_mag_45_277f_000_LOD0.smd"
 }
 
 $surfaceprop "default"
@@ -22,7 +22,7 @@ $bbox -2.631 -0.554 -5.726 0.841 0.548 1.99
 
 
 $sequence "reference" {
-	"att_wm_p08_ar_mcbravo_mag_v0_LOD0.smd"
+	"wm_jup_cp08_br_xmike5_mag_45_277f_000_LOD0.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
