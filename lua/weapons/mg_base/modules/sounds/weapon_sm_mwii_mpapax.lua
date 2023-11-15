@@ -329,3 +329,45 @@ sound.Add({
 		"kyo/mwii/mpapax/weap_mpapax_inspect_boltclose.ogg",
 		}
 })
+sound.Add({
+	name = "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_out",
+	channel = CHAN_WPNFOLEY + 1,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mpapax/mfoly_plr_sm_mpapax_inspect_empty_drum_mag_out.wav",
+		}
+})
+-- Sound: 47
+sound.Add({
+	name = "mfoly_plr_sm_mpapax_inspect_drum_mag_in",
+	channel = CHAN_WPNFOLEY + 2,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mpapax/mfoly_plr_sm_mpapax_inspect_drum_mag_in.wav",
+		}
+})
+sound.Add({
+	name = "mfoly_plr_sm_mpapax_inspect_drum_mag_out",
+	channel = CHAN_WPNFOLEY + 1,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mpapax/mfoly_plr_sm_mpapax_inspect_drum_mag_out.wav",
+		}
+})
+-- Sound: 47
+sound.Add({
+	name = "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in",
+	channel = CHAN_WPNFOLEY + 2,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mpapax/mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in.wav",
+		}
+})
