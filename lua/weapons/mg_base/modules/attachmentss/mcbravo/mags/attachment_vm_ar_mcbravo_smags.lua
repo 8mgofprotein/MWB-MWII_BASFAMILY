@@ -13,6 +13,6 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Reload_Empty_Fast = weapon.Animations.Reload_Empty_Smag_Fast
     weapon.Animations.Inspect = weapon.Animations.Inspect_Smag
     weapon.Animations.Inspect_Empty = weapon.Animations.Inspect_Smag_Empty
-    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.95
-    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.95
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.175
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.175
 end
