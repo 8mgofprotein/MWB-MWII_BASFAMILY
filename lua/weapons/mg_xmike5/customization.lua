@@ -22,9 +22,11 @@ end
 SWEP.Customization = {
     {"att_perk", "attachment_vm_ar_mcharlie_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
 
-    {"att_barrel",},
+    {"attachment_vm_jup_cp08_br_xmike5_bar", "attachment_vm_jup_cp08_br_xmike5_bar_lgtlong", "attachment_vm_jup_cp08_br_xmike5_bar_lgtshort", "attachment_vm_jup_cp08_br_xmike5_bar_light",
+	 "attachment_vm_jup_cp08_br_xmike5_bar_long", "attachment_vm_jup_cp08_br_xmike5_bar_short"},
 
-   {"att_stock",},
+   {"attachment_vm_jup_cp08_br_xmike5_stock", "attachment_vm_jup_cp08_br_xmike5_stock_folding", "attachment_vm_jup_cp08_br_xmike5_stock_heavy", "attachment_vm_jup_cp08_br_xmike5_stock_hvyprecision",
+   "attachment_vm_jup_cp08_br_xmike5_stock_lgtprecision", "attachment_vm_jup_cp08_br_xmike5_stock_light", "attachment_vm_jup_cp08_br_xmike5_stock_no"},
 
     {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
@@ -32,12 +34,21 @@ SWEP.Customization = {
     "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01", "att_vm_2x_west01",
     "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02"},
 
-    {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_mpapax_laser02", 
-    "attachment_vm_sm_mpapax_laser03"},
+    {"att_laser", "attachment_vm_ar_mcharlie_laser01", "attachment_vm_ar_mcharlie_laser02", 
+    "attachment_vm_ar_mcharlie_laser03"},
+	
+	{"attachment_vm_jup_cp08_br_xmike5_mag_20", "attachment_vm_jup_cp08_br_xmike5_mag_30", "attachment_vm_jup_cp08_br_xmike5_mag_45"},
 
     {"att_grip", "attachment_vm_sm_mpapax_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_mpapax_angledgrip02", "attachment_vm_sm_mpapax_stubbygrip01", 
     "attachment_vm_sm_mpapax_stubbygrip02", "attachment_vm_sm_mpapax_vertgrip01", "attachment_vm_sm_mpapax_vertgrip02", 
     "attachment_vm_sm_mpapax_vertgrip03"},
+	
+	{"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_compensator01", 
+    "att_vm_compensator02", "att_vm_flashhider01", "att_vm_flashhider02", 
+    "att_vm_flashhider03", "att_vm_flashhider04", "att_vm_muzzlebrake01",
+    "att_vm_muzzlebrake02", "att_vm_muzzlebrake03",
+    "att_vm_silencer01", "att_vm_silencer02", "att_vm_silencer03",
+    "att_vm_silencer04", "att_vm_silencer05", "att_vm_silencer06"},
 }
 
 --NECESSARY: it loads custom attachments from other authors
