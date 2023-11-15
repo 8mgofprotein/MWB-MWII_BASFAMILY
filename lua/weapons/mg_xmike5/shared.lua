@@ -54,13 +54,13 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("Atmo_AR3.Outside"),
-            Reflection = Sound("Reflection_AR.Outside")
+            Layer = Sound("wpn_br_xmike5_fire_plr_atmo_1"),
+            Reflection = Sound("")
         },
 
         Inside = { 
-            Layer = Sound("Atmo_AR.Inside"),
-            Reflection = Sound("Reflection_AR.Inside")
+            Layer = Sound("wpn_br_xmike5_fire_plr_atmo_int_1"),
+            Reflection = Sound("")
         }
     }
 }
@@ -144,8 +144,8 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Aim = {
-        Angles = Angle(0, 0, 2),
-        Pos = Vector(0.44, 2, 0.56)
+        Angles = Angle(0, 0, 0),
+        Pos = Vector(0.28, 2, 0.5)
     },
     Idle = {
         Angles = Angle(0, 0, 0),

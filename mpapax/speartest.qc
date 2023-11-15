@@ -167,8 +167,6 @@ $definebone "j_gun" "" 0 0 0 0 0 0 0 0 0 0 0 0
       $definebone "tag_brass" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_holo" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_hybrid" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-      $definebone "j_hybrid_scope" "tag_hybrid" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-      $definebone "j_magnifier_lever" "tag_hybrid" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_cambone" "tag_view" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_camera" "tag_cambone" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_player" "tag_camera" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
@@ -191,7 +189,6 @@ $definebone "j_gun" "" 0 0 0 0 0 0 0 0 0 0 0 0
       $definebone "tag_sight_off" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_sight_on" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "tag_stock_attach" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-      $definebone "tag_thermal" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "j_magrel" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "j_index_ri_4" "j_index_ri_3" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
       $definebone "j_indexbulge_ri_1" "j_index_ri_1" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
@@ -561,7 +558,7 @@ $animation "a_delta_grip_barmini_additive_for_offset_corrective_animation" "m13a
 }
 
 
-$animation "a_hybrid_idle_corrective_animation" "v_mike4_anims\a_hybrid_idle_corrective_animation.smd" {
+$animation "a_hybrid_idle_corrective_animation" "basbanims\corrective.smd" {
 }
 
 $animation "a_hybrid_override_additive_corrective_animation" "v_mike4_anims\a_hybrid_override_additive_corrective_animation.smd" {
@@ -871,7 +868,7 @@ $animation "hybrid_idle_to_sub" "v_mike4_anims\hybrid_idle_to_sub.smd" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
 }
 
-$animation "a_hybrid_idle" "v_mike4_anims\a_hybrid_idle.smd" {
+$animation "a_hybrid_idle" "basbanims\hybrid_on_corrective.smd" {
 	fps 0.416
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_hybrid_idle_corrective_animation" 0

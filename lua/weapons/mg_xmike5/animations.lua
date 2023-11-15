@@ -82,8 +82,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Smag"] = {
-        Sequences = {"reload_smag"},
+    ["Reload_Xmag"] = {
+        Sequences = {"reload_xmag"},
         Length = 2.6,
         Fps = 30,
         MagLength = 1.6,
@@ -100,8 +100,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Fast_Smag"] = {
-        Sequences = {"reload_fast_smag"},
+    ["Reload_Fast_Xmag"] = {
+        Sequences = {"reload_fast_Xmag"},
         Length = 1.6,
         Fps = 30,
         MagLength = 1.1	,
@@ -115,44 +115,6 @@ SWEP.Animations = {
             {Time = 0.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_01")) end},
             {Time = 2.3, Callback = function(self) self:EnableGrip() end},
             {Time = 1.933, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_xmag_05")) end},
-        }
-    },
-	
-    ["Reload_Drum"] = {
-        Sequences = {"reload_Drum"},
-        Length = 2.7,
-        Fps = 30,
-        MagLength = 1.83,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_01")) end},
-            {Time = 0.4, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_02")) end},
-            {Time = 1.2, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_03")) end},
-            {Time = 1.6, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_04")) end},
-            {Time = 2.133, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_05")) end},
-            {Time = 0.133, Callback = function(self) self:DisableGrip() end},
-            {Time = 2.167, Callback = function(self) self:EnableGrip() end},
-            {Time = 2.167, Callback = function(self) end},
-            {Time = 1.833, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_045")) end},
-        }
-    },
-
-    ["Reload_Drum_Fast"] = {
-        Sequences = {"reload_fast_Drum"},
-        Length = 1.43,
-        Fps = 30,
-        MagLength = 0.9,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.Drum"), Vector(-5, 0, 40)) end},
-            {Time = 0.767, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_drum_04")) end},
-            {Time = 1.233, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_drum_05")) end},
-            {Time = 0.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_drum_01")) end},
-            {Time = 0.233, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_drum_02")) end},
-            {Time = 0.633, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_drum_03")) end},
-            {Time = 0.1, Callback = function(self) self:DisableGrip() end},
-            {Time = 1.033, Callback = function(self) self:EnableGrip() end},
-            {Time = 0.9, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_fast_drum_045")) end},
         }
     },
 
@@ -196,8 +158,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Empty_Smag"] = {
-        Sequences = {"reload_empty_smag"},
+    ["Reload_Empty_Xmag"] = {
+        Sequences = {"reload_empty_xmag"},
         Length = 2.6,
         Fps = 30,
         MagLength = 1.53,
@@ -217,8 +179,8 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Empty_Fast_Smag"] = {
-        Sequences = {"reload_empty_fast_smag"},
+    ["Reload_Empty_Fast_Xmag"] = {
+        Sequences = {"reload_empty_fast_xmag"},
         Length = 1.66,
         Fps = 30,
         MagLength = 0.9,
@@ -238,47 +200,6 @@ SWEP.Animations = {
         }
     },
 
-    ["Reload_Empty_Drum"] = {
-        Sequences = {"reload_empty_Drum"},
-        Length = 2.86,
-        Fps = 30,
-        MagLength = 1.53,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.Drum"), Vector(-15, 0, 40)) end},
-            {Time = 1.333, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_04")) end},
-            {Time = 2.0, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_05")) end},
-            {Time = 2.133, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_06")) end},
-            {Time = 2.667, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_07")) end},
-            {Time = 0.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_01")) end},
-            {Time = 0.267, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_02")) end},
-            {Time = 1.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_03")) end},
-            {Time = 0.1, Callback = function(self) self:DisableGrip() end},
-            {Time = 1.533, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_drum_045")) end},
-            {Time = 1.933, Callback = function(self) self:EnableGrip() end},
-        }
-    },
-
-    ["Reload_Empty_Drum_Fast"] = {
-        Sequences = {"reload_empty_fast_drum"},
-        Length = 1.66,
-        Fps = 30,
-        MagLength = 0.9,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0.95, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.Drum"), Vector(-5, 0, 40)) end},
-            {Time = 0, Callback = function(self) end},
-            {Time = 0, Callback = function(self) end},
-            {Time = 0.1, Callback = function(self) self:DisableGrip() end},
-            {Time = 0.9, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_fast_drum_035")) end},
-            {Time = 0.167, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_fast_drum_01")) end},
-            {Time = 0.233, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_fast_drum_02")) end},
-            {Time = 0.6, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_fast_drum_03")) end},
-            {Time = 1.133, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_fast_drum_04")) end},
-            {Time = 1.267, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_empty_fast_drum_05")) end},
-            {Time = 1.233, Callback = function(self) self:EnableGrip() end},
-        }
-    },
 
     ["Fire"] = {
         Sequences = {"fire"},
@@ -403,8 +324,8 @@ SWEP.Animations = {
         
         }
     },
-    ["Inspect_drummag"] = {
-        Sequences = {"inspect_drum"},
+    ["Inspect_Xmag"] = {
+        Sequences = {"Inspect_xmag"},
         Length = 4.366,
         Fps = 30,
         NextSequence = "Idle",
@@ -419,8 +340,8 @@ SWEP.Animations = {
         
         }
     },
-    ["Inspect_smag"] = {
-        Sequences = {"inspect_smag"},
+    ["Inspect_Xmaglrg"] = {
+        Sequences = {"inspect_xmaglrg"},
         Length = 4.366,
         Fps = 30,
         NextSequence = "Idle",
@@ -451,8 +372,8 @@ SWEP.Animations = {
         
         }
     },
-	["Inspect_empty_drummag"] = {
-        Sequences = {"inspect_drum_empty"},
+	["Inspect_empty_Xmaglrg"] = {
+        Sequences = {"inspect_xmaglrg_empty"},
         Length = 4.366,
         Fps = 30,
         NextSequence = "Idle",
@@ -467,8 +388,8 @@ SWEP.Animations = {
         
         }
     },
-	["Inspect_empty_smag"] = {
-        Sequences = {"inspect_smag_empty"},
+	["Inspect_Empty_Xmag"] = {
+        Sequences = {"inspect_empty_xmag"},
         Length = 4.366,
         Fps = 30,
         NextSequence = "Idle",

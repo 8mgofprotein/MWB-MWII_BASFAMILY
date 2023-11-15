@@ -35,7 +35,7 @@ function SWEP:doCalConversionStats()
 end
 
 SWEP.Customization = {
-    {"att_perk", "attachment_vm_ar_mcharlie_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
+    {"att_perk", "attachment_vm_ar_mcbravocharlierattle_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
 
     {"attachment_vm_ar_mcbravo_barrel", "attachment_vm_ar_mcbravo_barhvyshort", "attachment_vm_ar_mcbravo_barshort", "attachment_vm_ar_mcbravo_barmed"},
 

@@ -7,10 +7,10 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
     weapon.Primary.ClipSize = 45
-    weapon.Animations.Reload = weapon.Animations.Reload_Xmaglrg
-    weapon.Animations.Reload_Empty = weapon.Animations.Reload_Empty_Xmaglrg
-    weapon.Animations.Reload_Fast = weapon.Animations.Reload_Xmaglrg_Fast
-    weapon.Animations.Reload_Empty_Fast = weapon.Animations.Reload_Empty_Xmaglrg_Fast
+    weapon.Animations.Reload = weapon.Animations.Reload_Xmag
+    weapon.Animations.Reload_Empty = weapon.Animations.Reload_Empty_Xmag
+    weapon.Animations.Reload_Fast = weapon.Animations.Reload_Xmag_Fast
+    weapon.Animations.Reload_Empty_Fast = weapon.Animations.Reload_Empty_Xmag_Fast
     weapon.Animations.Inspect = weapon.Animations.Inspect_Xmaglrg
     weapon.Animations.Inspect_Empty = weapon.Animations.Inspect_Xmaglrg_Empty
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.775
