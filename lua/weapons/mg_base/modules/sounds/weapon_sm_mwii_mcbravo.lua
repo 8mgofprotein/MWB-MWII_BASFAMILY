@@ -410,7 +410,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_fast_raise",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -420,7 +420,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_fast_rattle",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -440,7 +440,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_magin_v2_02",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -450,7 +450,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_magout_01",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -470,7 +470,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_end",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -480,7 +480,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_fast_bolt_release",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -500,7 +500,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_fast_magin_v2_01",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -510,7 +510,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_fast_magin_v2_02",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -531,7 +531,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_fast_raise",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -541,7 +541,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_magin_v2_01",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -562,7 +562,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_magout_01",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -572,7 +572,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_rotate",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -593,7 +593,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_end",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -603,7 +603,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_fast_arm",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -624,7 +624,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_fast_magin_v2_01",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -634,7 +634,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_fast_magin_v2_02",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -655,7 +655,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_fast_rotate",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -665,7 +665,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_maghit",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -686,7 +686,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_magin_v2_02",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -696,7 +696,7 @@ sound.Add({
 })
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_magout_01",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -713,5 +713,25 @@ sound.Add({
 	pitch = {100,100},
 	sound = {
 		"kyo/mwii/mcharliebraavorttle/wfoly_ar_mcharlie_xmag_reload_rotate.wav",
+		}
+})
+sound.Add({
+	name = "weap_mcbravo_inspect_boltpull",
+	channel = CHAN_WPNFOLEY + 4,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mcharliebraavorttle/weap_mcbravo_inspect_boltpull.wav",
+		}
+})
+sound.Add({
+	name = "weap_mcbravo_inspect_boltclose",
+	channel = CHAN_WPNFOLEY + 7,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mcharliebraavorttle/weap_mcbravo_inspect_boltclose.wav",
 		}
 })
