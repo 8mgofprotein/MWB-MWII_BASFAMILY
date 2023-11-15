@@ -371,3 +371,13 @@ sound.Add({
 		"kyo/mwii/mpapax/mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in.wav",
 		}
 })
+sound.Add({
+	name = "mfoly_plr_sm_mpapax_inspect_drum_mag_hit",
+	channel = CHAN_WPNFOLEY + 2,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mpapax/mfoly_plr_sm_mpapax_inspect_drum_mag_hit.wav",
+		}
+})

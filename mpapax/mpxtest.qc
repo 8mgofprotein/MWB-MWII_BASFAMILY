@@ -1373,8 +1373,9 @@ $sequence "reload_drum" {
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 15 "wfoly_plr_sm_mpapa7_reload_mag_release" }
 	{ event 5004 17 "mfoly_plr_sm_mpapax_inspect_drum_mag_out" }
+	{ event 5004 62 "mfoly_plr_sm_mpapax_inspect_drum_mag_hit" }
 	{ event 5004 27 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
-	{ event 5004 64 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in" }
+	{ event 5004 64 "mfoly_plr_sm_mpapax_inspect_drum_mag_in" }
 	{ event 5004 35 "Viewmodel.Small" }
 	{ event 5004 76 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
 	{ event 5004 79 "wfoly_plr_sm_mpapa7_reload_end" }
@@ -1416,6 +1417,7 @@ $sequence "reload_fast_drum" {
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 10 "wfoly_plr_sm_mpapa7_reload_mag_release" }
 	{ event 5004 13 "mfoly_plr_sm_mpapax_inspect_drum_mag_out" }
+	{ event 5004 33 "mfoly_plr_sm_mpapax_inspect_drum_mag_hit" }
 	{ event 5004 35 "mfoly_plr_sm_mpapax_inspect_drum_mag_in" }
 	{ event 9031 21 "ResetBullets" }
 	{ event 5004 19 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
@@ -1459,8 +1461,9 @@ $sequence "reload_empty_drum" {
 	{ event 5004 0 "wfoly_plr_sm_mpapa7_reload_empty_lift" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 20 "wfoly_plr_sm_mpapa7_reload_mag_release" }
-	{ event 5004 26 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_out" }
+	{ event 5004 25 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_out" }
 	{ event 5004 35 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 64 "mfoly_plr_sm_mpapax_inspect_drum_mag_hit" }
 	{ event 9031 39 "ResetBullets" }
 	{ event 5004 51 "wfoly_plr_sm_mpapa7_reload_empty_mvmnt" }
 	{ event 5004 66 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in" }
@@ -1506,6 +1509,7 @@ $sequence "reload_empty_fast_drum" {
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 10 "wfoly_plr_sm_mpapa7_reload_mag_release" }
 	{ event 5004 13 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_out" }
+	{ event 5004 33 "mfoly_plr_sm_mpapax_inspect_drum_mag_hit" }
 	{ event 5004 35 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in" }
 	{ event 5004 19 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
 	{ event 9031 21 "ResetBullets" }
@@ -1799,6 +1803,7 @@ $sequence "inspect_drum" {
 	{ event 5004 13 "wfoly_plr_sm_mpapa7_reload_mag_release" }
 	{ event 5004 15 "mfoly_plr_sm_mpapax_inspect_drum_mag_out" }
 	{ event 5004 27 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
+	{ event 5004 80 "mfoly_plr_sm_mpapax_inspect_drum_mag_hit" }
 	{ event 5004 82 "mfoly_plr_sm_mpapax_inspect_drum_mag_in" }
 	{ event 5004 116 "weap_mpapax_inspect_boltpull" }
 	{ event 5004 35 "Viewmodel.Small" }
@@ -1949,6 +1954,7 @@ $sequence "inspect_drum_empty" {
 	{ event 5004 118 "weap_mpapax_inspect_boltclose" }
 	{ event 5004 187 "Viewmodel.Small" }
 	{ event 5004 128 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
+	{ event 5004 148 "mfoly_plr_sm_mpapax_inspect_drum_mag_hit" }
 	{ event 5004 150 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in" }
 	{ event 5004 178 "weap_mpapax_inspect_boltpull" }
 	{ event 5004 198 "weap_mpapax_inspect_boltclose" }
@@ -1987,7 +1993,7 @@ $sequence "inspect_smag_empty" {
 	{ event 5004 0 "wfoly_plr_sm_mpapa7_reload_lift" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 5004 13 "wfoly_plr_sm_mpapa7_reload_mag_release" }
-	{ event 5004 15 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_out" }
+	{ event 5004 15 "wfoly_plr_sm_mpapa7_reload_empty_magout" }
 	{ event 5004 27 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
 	{ event 5004 79 "weap_mpapax_inspect_boltpull" }
 	{ event 5004 81 "Viewmodel.Small" }
@@ -2003,7 +2009,7 @@ $sequence "inspect_smag_empty" {
 	{ event 5004 118 "weap_mpapax_inspect_boltclose" }
 	{ event 5004 187 "Viewmodel.Small" }
 	{ event 5004 128 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
-	{ event 5004 150 "mfoly_plr_sm_mpapax_inspect_empty_drum_mag_in" }
+	{ event 5004 150 "wfoly_plr_sm_mpapa7_reload_empty_magin" }
 	{ event 5004 178 "weap_mpapax_inspect_boltpull" }
 	{ event 5004 198 "weap_mpapax_inspect_boltclose" }
 	{ event 5004 213 "wfoly_plr_sm_mpapa7_reload_empty_end" }
