@@ -14,7 +14,7 @@ if CLIENT then
 end
 
 SWEP.Base = "mg_base"
-SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset",   "grip_barshort_offset",  "grip_barshort_gripang_offset", "grip_barshort_gripvert_offset"}
+SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vertpro_offset",   "grip_barshort_offset",  "grip_barshort_gripang_offset", "grip_barshort_gripvert_offset"}
 
 SWEP.PrintName = "Chimera"
 SWEP.Category = "Modern Warfare"
