@@ -1,18 +1,18 @@
 AddCSLuaFile()
 
 function SWEP:doSuppressorStats()
-    self.Primary.Sound = Sound("mw19_mcharlie.fire.s")
+    self.Primary.Sound = Sound("weap_mcbravo_sup_plr_shot_01")
     self.Reverb = {
         RoomScale = 50000,
         Sounds = {
             Outside = {
-                Layer = Sound("Atmo_AR_Sup.Outside"),
-                Reflection = Sound("Reflection_ARSUP.Outside")
+                Layer = Sound("weap_ar6_sup_sub_fire_plr_atmo_ext1_01"),
+                Reflection = Sound("")
             },
     
             Inside = { 
-                Layer = Sound("Atmo_AR_Sup.Inside"),
-                Reflection = Sound("Reflection_ARSUP.Inside")
+                Layer = Sound("weap_ar_sup_fire_plr_atmo_int1_01"),
+                Reflection = Sound("")
             }
         }
     }
