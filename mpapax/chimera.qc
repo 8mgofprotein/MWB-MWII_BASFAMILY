@@ -539,7 +539,7 @@ $animation "@a_jumpdelta_corrective_animation" "v_mike4_anims\@a_jumpdelta_corre
 $animation "a_empty_idle_to_sub_corrective_animation" "v_mike4_anims\a_empty_idle_to_sub_corrective_animation.smd" {
 }
 
-$animation "a_delta_empty_additive_for_offset_corrective_animation" "anims\corrective.smd" {
+$animation "a_delta_empty_additive_for_offset_corrective_animation" "m13anims\corrective.smd" {
 }
 
 $animation "a_grip_vert_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_vert_idle_to_sub_corrective_animation.smd" {
@@ -573,6 +573,8 @@ $animation "a_delta_grip_barshort_gripang_additive_for_offset_corrective_animati
 $animation "a_delta_grip_barshort_gripvert_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l_gripvert.smd" {
 }
 
+$animation "a_delta_grip_vertpro_additive_for_offset_corrective_animation" "m13anims\vm_ar_mcharlie_pose_l_gripvert.smd" {
+}
 
 $animation "a_grip_killtheclamp_idle_to_sub_corrective_animation" "v_smgolf45_anims\a_grip_killtheclamp_idle_to_sub_corrective_animation.smd" {
 }
@@ -830,7 +832,7 @@ $animation "a_empty_idle_to_sub" "v_mike4_anims\a_empty_idle_to_sub.smd" {
 	subtract "a_empty_idle_to_sub_corrective_animation" 0
 }
 
-$animation "a_delta_empty_additive_for_offset" "anims\empty.smd" {
+$animation "a_delta_empty_additive_for_offset" "m13anims\vm_p08_ar_mcharlie_empty_additive.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_empty_additive_for_offset_corrective_animation" 0
@@ -918,7 +920,11 @@ $animation "a_delta_grip_barshort_gripvert_additive_for_offset" "m13anims\vm_p08
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_delta_grip_barshort_gripvert_additive_for_offset_corrective_animation" 0
 }
-
+$animation "a_delta_grip_vertpro_additive_for_offset" "m13anims\vm_p08_ar_mcbravo_pose_l_gripvertshort.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_delta_grip_vertpro_additive_for_offset_corrective_animation" 0
+}
 $animation "grip_killtheclamp_idle_to_sub" "v_smgolf45_anims\grip_killtheclamp_idle_to_sub.smd" {
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
@@ -978,7 +984,7 @@ $sequence "idle" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1008,7 +1014,7 @@ $sequence "holster" {
 	addlayer "freefall_loop"
 	addlayer "aim_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1041,7 +1047,7 @@ $sequence "draw" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1073,7 +1079,7 @@ $sequence "semi_on" {
 	addlayer "aim_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1106,7 +1112,7 @@ $sequence "semi_off" {
 	addlayer "aim_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1142,7 +1148,7 @@ $sequence "draw_first" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1187,7 +1193,7 @@ $sequence "reload" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1231,7 +1237,7 @@ $sequence "reload_fast" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1276,7 +1282,7 @@ $sequence "reload_empty" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1321,7 +1327,7 @@ $sequence "reload_empty_fast" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1364,7 +1370,7 @@ $sequence "reload_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1408,7 +1414,7 @@ $sequence "reload_fast_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1454,7 +1460,7 @@ $sequence "reload_empty_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1499,7 +1505,7 @@ $sequence "reload_empty_fast_xmag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1542,7 +1548,7 @@ $sequence "reload_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1585,7 +1591,7 @@ $sequence "reload_fast_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1630,7 +1636,7 @@ $sequence "reload_empty_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1674,7 +1680,7 @@ $sequence "reload_empty_fast_xmaglrg" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1716,7 +1722,7 @@ $sequence "reload_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1757,7 +1763,7 @@ $sequence "reload_fast_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1800,7 +1806,7 @@ $sequence "reload_empty_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1843,7 +1849,7 @@ $sequence "reload_empty_fast_smag" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1879,7 +1885,7 @@ $sequence "fire" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1921,7 +1927,7 @@ $sequence "inspect" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -1962,7 +1968,7 @@ $sequence "inspect_xmag" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2002,7 +2008,7 @@ $sequence "inspect_xmaglrg" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2042,7 +2048,7 @@ $sequence "inspect_smag" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2089,7 +2095,7 @@ $sequence "inspect_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2136,7 +2142,7 @@ $sequence "inspect_xmag_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2182,7 +2188,7 @@ $sequence "inspect_xmaglrg_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2228,7 +2234,7 @@ $sequence "inspect_smag_empty" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2264,7 +2270,7 @@ $sequence "melee_miss_01" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
  	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2300,7 +2306,7 @@ $sequence "melee_miss_02" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2336,7 +2342,7 @@ $sequence "melee_miss_03" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2372,7 +2378,7 @@ $sequence "melee_hit_01" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2408,7 +2414,7 @@ $sequence "melee_hit_02" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2444,7 +2450,7 @@ $sequence "melee_hit_03" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2477,7 +2483,7 @@ $sequence "hybrid_toggle_on" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2510,7 +2516,7 @@ $sequence "hybrid_toggle_off" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2542,7 +2548,7 @@ $sequence "ads_in" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2574,7 +2580,7 @@ $sequence "ads_out" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2667,7 +2673,7 @@ $sequence "sprint_in" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2717,7 +2723,7 @@ $sequence "sprint_out" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2790,7 +2796,7 @@ $sequence "jump_land" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2830,7 +2836,7 @@ $sequence "jump" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	
@@ -2908,7 +2914,16 @@ $sequence "grip_barshort_gripvert_offset" {
 	fadeout 0.2
 	realtime
 }
-
+$sequence "grip_vertpro_offset" {
+	"a_grip_hip_idle_to_sub"
+	"a_delta_grip_vertpro_additive_for_offset"
+	blend "grip_vertpro_offset" 0 1
+	blendwidth 2
+	delta
+	fadein 0.2
+	fadeout 0.2
+	realtime
+}
 $sequence "grip_barmini_offset" {
 	"a_grip_killtheclamp_idle_to_sub"
 	"a_delta_grip_barmini_additive_for_offset"
@@ -2956,7 +2971,7 @@ $sequence "jog_out" {
 	addlayer "firemode_offset"
 	addlayer "empty_offset"
 	addlayer "grip_vert_offset"
-	
+	addlayer "grip_vertpro_offset"
 	addlayer "grip_ang_offset"
 	addlayer "grip_barmini_offset"
 	

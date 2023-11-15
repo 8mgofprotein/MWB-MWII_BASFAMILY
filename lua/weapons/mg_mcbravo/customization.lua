@@ -37,13 +37,20 @@ end
 SWEP.Customization = {
     {"att_perk", "attachment_vm_ar_mcharlie_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
 
-    {"attachment_vm_ar_mcbravo_barrel",},
+    {"attachment_vm_ar_mcbravo_barrel"},
 
    {"attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac"},
 
     {"attachment_vm_ar_mcharlie_mag", "attachment_vm_ar_mcharlie_magsub", "attachment_vm_ar_mcharlie_xmags", "attachment_vm_ar_mcbravo_smags", "attachment_vm_ar_mcharlie_xmags2"},
 
-    {"attachment_vm_sm_mpapax_pistgrip",},
+    {"attachment_vm_sm_mpapax_pistgrip"},
+	
+    {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_compensator01", 
+    "att_vm_compensator02", "att_vm_flashhider01", "att_vm_flashhider02", 
+    "att_vm_flashhider03", "att_vm_flashhider04", "att_vm_muzzlebrake01",
+    "att_vm_muzzlebrake02", "att_vm_muzzlebrake03",
+    "att_vm_silencer01", "att_vm_silencer02", "att_vm_silencer03",
+    "att_vm_silencer04", "att_vm_silencer05", "att_vm_silencer06"},
 
     {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
