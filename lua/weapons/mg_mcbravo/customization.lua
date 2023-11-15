@@ -37,13 +37,13 @@ end
 SWEP.Customization = {
     {"att_perk", "attachment_vm_ar_mcharlie_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
 
-    {"attachment_vm_ar_mcbravo_barrel"},
+    {"attachment_vm_ar_mcbravo_barrel", "attachment_vm_ar_mcbravo_barhvyshort", "attachment_vm_ar_mcbravo_barshort", "attachment_vm_ar_mcbravo_barmed"},
 
-   {"attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac"},
+    {"attachment_vm_sm_mcbravo_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac"},
 
-    {"attachment_vm_ar_mcharlie_mag", "attachment_vm_ar_mcharlie_magsub", "attachment_vm_ar_mcharlie_xmags", "attachment_vm_ar_mcbravo_smags", "attachment_vm_ar_mcharlie_xmags2"},
+    {"attachment_vm_ar_mcbravo_mags", "attachment_vm_ar_mcbravo_smags", "attachment_vm_ar_mcbravo_xmags"},
 
-    {"attachment_vm_sm_mpapax_pistgrip"},
+    {"attachment_vm_sm_mpapax_pistgrip",},
 	
     {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_compensator01", 
     "att_vm_compensator02", "att_vm_flashhider01", "att_vm_flashhider02", 
