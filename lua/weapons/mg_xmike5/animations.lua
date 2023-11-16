@@ -34,7 +34,7 @@ SWEP.Animations = {
 
     ["Equip"] = {
         Sequences = {"draw_First"},
-        Length = 1.166,
+        Length = 1.5,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -310,7 +310,7 @@ SWEP.Animations = {
 
     ["Inspect"] = {
         Sequences = {"inspect"},
-        Length = 4.366,
+        Length = 5.366,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -372,7 +372,7 @@ SWEP.Animations = {
         
         }
     },
-	["Inspect_empty_Xmaglrg"] = {
+	["Inspect_Xmaglrg_empty"] = {
         Sequences = {"inspect_xmaglrg_empty"},
         Length = 4.366,
         Fps = 30,
@@ -388,8 +388,8 @@ SWEP.Animations = {
         
         }
     },
-	["Inspect_Empty_Xmag"] = {
-        Sequences = {"inspect_empty_xmag"},
+	["Inspect_Xmag_Empty"] = {
+        Sequences = {"inspect_xmag_empty"},
         Length = 4.366,
         Fps = 30,
         NextSequence = "Idle",

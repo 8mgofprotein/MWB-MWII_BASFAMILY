@@ -39,6 +39,8 @@ SWEP.Customization = {
 	
 	{"attachment_vm_jup_cp08_br_xmike5_mag_20", "attachment_vm_jup_cp08_br_xmike5_mag_30", "attachment_vm_jup_cp08_br_xmike5_mag_45"},
 
+	{"attachment_vm_jup_cp08_br_xmike5_pgrip"},
+
     {"att_grip", "attachment_vm_sm_mpapax_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_mpapax_angledgrip02", "attachment_vm_sm_mpapax_stubbygrip01", 
     "attachment_vm_sm_mpapax_stubbygrip02", "attachment_vm_sm_mpapax_vertgrip01", "attachment_vm_sm_mpapax_vertgrip02", 
     "attachment_vm_sm_mpapax_vertgrip03"},

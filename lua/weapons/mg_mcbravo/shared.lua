@@ -142,7 +142,7 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Aim = {
-        Angles = Angle(0, 0, 0),
+        Angles = Angle(0, 0, -2),
         Pos = Vector(0.36, 2, 0.7)
     },
     Idle = {
