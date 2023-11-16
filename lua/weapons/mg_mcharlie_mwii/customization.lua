@@ -35,7 +35,7 @@ function SWEP:doCalConversionStats()
 end
 
 SWEP.Customization = {
-    {"att_perk", "attachment_vm_ar_mcharlie_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
+    {"att_perk", "attachment_vm_ar_mcbravocharlierattle_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_headshot"}, 
 
     {"attachment_vm_ar_mcharlieb_barrel", "attachment_vm_ar_mcharlieb_barshort", "attachment_vm_ar_mcharlieb_barlong", "attachment_vm_ar_mcharlieb_ralpha_barrel"},
 
@@ -43,7 +43,7 @@ SWEP.Customization = {
 
     {"attachment_vm_sm_mcharlieb_pistgrip", "attachment_vm_sm_mcbravo_pistgrip", "attachment_vm_sm_mpapax_pistgrip", "attachment_vm_sm_ralpha_pistgrip", "attachment_vm_jup_cp08_br_xmike5_pgrip"},
 
-    {"attachment_vm_ar_mcharlieb_mag", "attachment_vm_ar_mcharlieb_xmag", "attachment_vm_ar_mcharlieb_xmaglrg"},
+    {"attachment_vm_ar_mcharlieb_mag","attachment_vm_ar_mcbravo_smag", "attachment_vm_ar_mcharlieb_xmag", "attachment_vm_ar_mcharlieb_xmaglrg"},
 
     {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_compensator01", 
     "att_vm_compensator02", "att_vm_flashhider01", "att_vm_flashhider02", 
