@@ -24,7 +24,7 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "foly_plr_br_xmike5_inspect_xmag_05",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_05",
     channel =        CHAN_WPNFOLEY + 1,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/foly_plr_br_xmike5_inspect_xmag_05.wav"}
@@ -108,70 +108,70 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_10",
+    name =           "wfoly_plr_br_xmike5_inspect_010",
     channel =        CHAN_WPNFOLEY + 13,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_10.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_010.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_11",
+    name =           "wfoly_plr_br_xmike5_inspect_011",
     channel =        CHAN_WPNFOLEY + 14,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_11.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_011.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_12",
+    name =           "wfoly_plr_br_xmike5_inspect_012",
     channel =        CHAN_WPNFOLEY + 15,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_12.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_012.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_13",
+    name =           "wfoly_plr_br_xmike5_inspect_013",
     channel =        CHAN_WPNFOLEY + 16,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_13.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_013.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_14",
+    name =           "wfoly_plr_br_xmike5_inspect_014",
     channel =        CHAN_WPNFOLEY + 17,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_14.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_014.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_15",
+    name =           "wfoly_plr_br_xmike5_inspect_015",
     channel =        CHAN_WPNFOLEY + 18,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_15.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_015.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_16",
+    name =           "wfoly_plr_br_xmike5_inspect_016",
     channel =        CHAN_WPNFOLEY + 19,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_16.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_016.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_17",
+    name =           "wfoly_plr_br_xmike5_inspect_017",
     channel =        CHAN_WPNFOLEY + 20,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_17.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_017.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_18",
+    name =           "wfoly_plr_br_xmike5_inspect_018",
     channel =        CHAN_WPNFOLEY + 21,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_18.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_018.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_19",
+    name =           "wfoly_plr_br_xmike5_inspect_019",
     channel =        CHAN_WPNFOLEY + 22,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_19.wav"}
@@ -241,35 +241,35 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_10",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_010",
     channel =        CHAN_WPNFOLEY + 32,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_10.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_11",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_011",
     channel =        CHAN_WPNFOLEY + 33,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_11.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_12",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_012",
     channel =        CHAN_WPNFOLEY + 34,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_12.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_13",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_013",
     channel =        CHAN_WPNFOLEY + 35,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_13.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_14",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_014",
     channel =        CHAN_WPNFOLEY + 36,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_14.wav"}
@@ -339,49 +339,49 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_10",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_010",
     channel =        CHAN_WPNFOLEY + 46,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_10.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_010.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_11",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_011",
     channel =        CHAN_WPNFOLEY + 47,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_11.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_12",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_012",
     channel =        CHAN_WPNFOLEY + 48,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_12.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_13",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_013",
     channel =        CHAN_WPNFOLEY + 49,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_13.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_14",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_014",
     channel =        CHAN_WPNFOLEY + 50,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_14.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_15",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_015",
     channel =        CHAN_WPNFOLEY + 51,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_15.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_16",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmaglrg_016",
     channel =        CHAN_WPNFOLEY + 52,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmaglrg_16.wav"}
@@ -451,42 +451,42 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_10",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_010",
     channel =        CHAN_WPNFOLEY + 62,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmag_10.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_11",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_011",
     channel =        CHAN_WPNFOLEY + 63,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmag_11.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_12",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_012",
     channel =        CHAN_WPNFOLEY + 64,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmag_12.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_13",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_013",
     channel =        CHAN_WPNFOLEY + 65,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmag_13.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_14",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_014",
     channel =        CHAN_WPNFOLEY + 66,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmag_14.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_15",
+    name =           "wfoly_plr_br_xmike5_inspect_empty_xmag_015",
     channel =        CHAN_WPNFOLEY + 67,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_empty_xmag_15.wav"}
@@ -556,70 +556,70 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_10",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_010",
     channel =        CHAN_WPNFOLEY + 77,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_10.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_11",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_011",
     channel =        CHAN_WPNFOLEY + 78,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_11.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_12",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_012",
     channel =        CHAN_WPNFOLEY + 79,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_12.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_13",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_013",
     channel =        CHAN_WPNFOLEY + 80,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_13.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_14",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_014",
     channel =        CHAN_WPNFOLEY + 81,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_14.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_15",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_015",
     channel =        CHAN_WPNFOLEY + 82,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_15.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_16",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_016",
     channel =        CHAN_WPNFOLEY + 83,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_16.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_17",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_017",
     channel =        CHAN_WPNFOLEY + 84,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_17.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_18",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_018",
     channel =        CHAN_WPNFOLEY + 85,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_18.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_19",
+    name =           "wfoly_plr_br_xmike5_inspect_xmaglrg_019",
     channel =        CHAN_WPNFOLEY + 86,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmaglrg_19.wav"}
@@ -682,70 +682,70 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_10",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_010",
     channel =        CHAN_WPNFOLEY + 95,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_10.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_11",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_011",
     channel =        CHAN_WPNFOLEY + 96,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_11.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_12",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_012",
     channel =        CHAN_WPNFOLEY + 97,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_12.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_13",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_013",
     channel =        CHAN_WPNFOLEY + 98,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_13.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_14",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_014",
     channel =        CHAN_WPNFOLEY + 99,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_14.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_15",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_015",
     channel =        CHAN_WPNFOLEY + 100,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_15.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_16",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_016",
     channel =        CHAN_WPNFOLEY + 101,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_16.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_17",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_017",
     channel =        CHAN_WPNFOLEY + 102,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_17.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_18",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_018",
     channel =        CHAN_WPNFOLEY + 103,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_18.wav"}
 })
 
 sound.Add({
-    name =           "wfoly_plr_br_xmike5_inspect_xmag_19",
+    name =           "wfoly_plr_br_xmike5_inspect_xmag_019",
     channel =        CHAN_WPNFOLEY + 104,
     volume =         1,
     sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_xmag_19.wav"}

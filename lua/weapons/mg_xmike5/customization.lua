@@ -28,11 +28,14 @@ SWEP.Customization = {
    {"attachment_vm_jup_cp08_br_xmike5_stock", "attachment_vm_jup_cp08_br_xmike5_stock_folding", "attachment_vm_jup_cp08_br_xmike5_stock_heavy", "attachment_vm_jup_cp08_br_xmike5_stock_hvyprecision",
    "attachment_vm_jup_cp08_br_xmike5_stock_lgtprecision", "attachment_vm_jup_cp08_br_xmike5_stock_light", "attachment_vm_jup_cp08_br_xmike5_stock_no"},
 
-    {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
+    {"att_sight", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
     "att_vm_reflex_east02", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
-    "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01", "att_vm_2x_west01",
-    "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02"},
+    "att_vm_thermal_east01", "att_vm_thermal_west01", "att_vm_thermal_east01_hybrid",
+    "att_vm_hybrid_west01", "att_vm_reflex_west04", "att_vm_2x_west01",
+    "att_vm_hybrid_west03", "att_vm_4x_east01",
+    "att_vm_4x_west01", "att_vm_4x_west02",
+    "att_vm_scope_mike14", "att_vm_scope_vz"},
 
     {"att_laser", "attachment_vm_ar_mcharlie_laser01", "attachment_vm_ar_mcharlie_laser02", 
     "attachment_vm_ar_mcharlie_laser03"},
