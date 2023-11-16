@@ -1,10 +1,10 @@
 // Created by Crowbar 0.74
 
-$modelname "vm_jup_cp08_br_xmike5_pgrip_tac_000_LOD0.mdl"
+$modelname "att_vm_p08_ar_ralpha_grip_v0_LOD0.mdl"
 
 $bodygroup "slide"
 {
-	studio "vm_jup_cp08_br_xmike5_pgrip_tac_000_LOD0.smd"
+	studio "att_vm_p08_ar_ralpha_grip_v0_LOD0.smd"
 }
 
 
@@ -26,7 +26,7 @@ $bbox -9.147 -1.396 -4.275 0 1.389 0.638
 
 
 $sequence "reference" {
-	"vm_jup_cp08_br_xmike5_pgrip_tac_000_LOD0.smd"
+	"att_vm_p08_ar_ralpha_grip_v0_LOD0.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

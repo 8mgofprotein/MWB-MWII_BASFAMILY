@@ -1,23 +1,27 @@
 // Created by Crowbar 0.74
 
-$modelname "vm_jup_cp08_br_xmike5_bar_lgtlong_000_LOD0.mdl"
+$modelname "att_vm_p08_ar_ralpha_barlong_v0_LOD0.mdl"
 
 $bodygroup "slide"
 {
-	studio "vm_jup_cp08_br_xmike5_bar_lgtlong_000_LOD0.smd"
+	studio "att_vm_p08_ar_ralpha_barlong_v0_LOD0.smd"
 }
 $bodygroup "tag_sight"
 {
-	studio "vm_jup_cp08_br_xmike5_bar_lgtlong_000_sight_on.smd"
-	studio "vm_jup_cp08_br_xmike5_bar_lgtlong_000_sight_off.smd"
+	studio "att_vm_p08_ar_ralpha_barlong_v0_sight_on.smd"
+	studio "att_vm_p08_ar_ralpha_barlong_v0_sight_off.smd"
 	blank
 }
 $bodygroup "tag_tip"
 {
-	studio "vm_jup_cp08_br_xmike5_bar_lgtlong_000_tip.smd"
+	studio "att_vm_p08_ar_ralpha_barlong_v0_tip.smd"
 	blank
 }
-
+$bodygroup "laser"
+{
+	blank
+	studio "att_vm_p08_ar_ralpha_barlong_v0_laser_on.smd"
+}
 $surfaceprop "default"
 
 $contents "solid"
@@ -49,7 +53,7 @@ $definebone "tag_sight_on2" "tag_barrel_attach" 9.792974 0.017874 1.906720 -0.00
 
 
 $sequence "reference" {
-	"vm_jup_cp08_br_xmike5_bar_lgtlong_000_LOD0.smd"
+	"att_vm_p08_ar_ralpha_barlong_v0_LOD0.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -61,7 +65,7 @@ $keyvalues
 // CSGO compiler adds the qc_path keyvalue section automatically.
 //	qc_path 
 //	{
-//		"value" "c:\github\source files mw\source-files-mw\attachments\assault rifles\mike4\attachment_barrel.qc"
+//		"value" "c:\github\source files mw\source-files-mw\attachments\assault rifles\mike4\attachment_barshort.qc"
 //	}
 }
 
