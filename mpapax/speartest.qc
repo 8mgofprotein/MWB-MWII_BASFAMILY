@@ -1040,9 +1040,9 @@ $sequence "draw_first" {
 	{ event 9011 0 "0" }
 	{ event 5004 0 "wfoly_plr_br_xmike5_raise_01" }
 	{ event 5004 12 "Viewmodel.Small" }
-	{ event 5004 8 "wfoly_plr_br_xmike5_inspect_11" }
+	{ event 5004 8 "wfoly_plr_br_xmike5_inspect_011" }
 	{ event 5004 21 "Viewmodel.Small" }
-	{ event 5004 18 "wfoly_plr_br_xmike5_inspect_12" }
+	{ event 5004 18 "wfoly_plr_br_xmike5_inspect_012" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
