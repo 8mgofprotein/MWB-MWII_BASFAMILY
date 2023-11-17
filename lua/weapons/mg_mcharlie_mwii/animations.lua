@@ -153,7 +153,7 @@ SWEP.Animations = {
     },
 
     ["Reload_XmagLrg_Fast"] = {
-        Sequences = {"reload_xmaglrg_fast"},
+        Sequences = {"reload_fast_xmaglrg"},
         Length = 1.3,
         Fps = 30,
         MagLength = 0.93,
@@ -281,7 +281,7 @@ SWEP.Animations = {
     },
 
    ["Reload_Empty_XmagLrg_Fast"] = {
-        Sequences = {"reload_empty_xmaglrg_fast"},
+        Sequences = {"reload_empty_fast_xmaglrg"},
         Length = 1.7,
         Fps = 30,
         MagLength = 0.93,
@@ -676,8 +676,9 @@ SWEP.Animations = {
         }
     },
 
+
     ["HybridOn"] = {
-        Sequences = {"hybrid_toggle_on"},
+        Sequences = {"hybrid_toggle_off"},
         Fps = 30,
         Length = 0.9,
         NextSequence = "Idle",
@@ -687,7 +688,7 @@ SWEP.Animations = {
     },
 
     ["HybridOff"] = {
-        Sequences = {"hybrid_toggle_off"},
+        Sequences = {"hybrid_toggle_on"},
         Fps = 30,
         Length = 0.9,
         NextSequence = "Idle",
