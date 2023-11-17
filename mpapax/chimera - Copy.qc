@@ -1,18 +1,18 @@
 // Created by Crowbar 0.71
 
-$modelname "v_ralpha_test.mdl"
+$modelname "v_mcharlie_test.mdl"
 
 $bodygroup "receiver"
 
-	studio "att_vm_p08_ar_ralpha_rec_v0_LOD0.smd"
+	studio "att_vm_p08_ar_mcharlie_rec_v0_LOD0.smd"
 	blank
 	blank
 	blank
 }
 $bodygroup "tag_sight"
 {
-	studio "att_vm_p08_ar_ralpha_rec_v0_sight_on.smd"
-	studio "att_vm_p08_ar_ralpha_rec_v0_sight_off.smd"
+	studio "att_vm_p08_ar_mcharlie_rec_v0_sight_on.smd"
+	studio "att_vm_p08_ar_mcharlie_rec_v0_sight_off.smd"
 	blank
 }
 
