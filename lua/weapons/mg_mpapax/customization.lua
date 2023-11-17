@@ -22,7 +22,7 @@ end
 SWEP.Customization = {
     {"att_perk", "attachment_vm_sm_mpapax_perk_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_rof"}, 
 
-    {"attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac"},
+    {"attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac", "attachment_vm_ar_mcharlieb_stock", "attachment_vm_ar_ralpha_stock", "attachment_vm_ar_ralpha_stockno"},
 
     {"attachment_vm_sm_mpapax_mag", "attachment_vm_sm_mpapax_smag", "attachment_vm_sm_mpapax_drummag"},
 
@@ -41,7 +41,7 @@ SWEP.Customization = {
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
     "att_vm_reflex_east02", "att_vm_reflex_west02_tall", "att_vm_reflex_west03",
     "att_vm_hybrid_west01", "att_vm_hybrid_west03", "att_vm_4x_east01", "att_vm_2x_west01",
-    "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02", "att_vm_hybrid_west02", "att_vm_hybrid_west02_thermal"},
+    "att_vm_4x_west01", "att_vm_4x_west02", "att_vm_reflex_west04", "att_vm_hybrid_west02", "att_vm_hybrid_west02_thermal"},
 
     {"att_laser", "attachment_vm_sm_mpapax_laser01", "attachment_vm_sm_mpapax_laser02", 
     "attachment_vm_sm_mpapax_laser03"},

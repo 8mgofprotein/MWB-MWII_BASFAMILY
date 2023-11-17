@@ -41,7 +41,7 @@ SWEP.Customization = {
 
     {"attachment_vm_ar_mcharlieb_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac", "attachment_vm_ar_ralpha_stock", "attachment_vm_ar_ralpha_stockno"},
 
-    {"attachment_vm_sm_mcharlieb_pistgrip", "attachment_vm_sm_mcbravo_pistgrip", "attachment_vm_sm_mpapax_pistgrip", "attachment_vm_sm_ralpha_pistgrip", "attachment_vm_jup_cp08_br_xmike5_pgrip"},
+    {"attachment_vm_sm_mcharlieb_pistgrip"},
 
     {"attachment_vm_ar_mcharlieb_mag", "attachment_vm_ar_mcbravo_smags", "attachment_vm_ar_mcharlieb_xmag", "attachment_vm_ar_mcharlieb_xmaglrg"},
 
