@@ -8,8 +8,8 @@ include("animations.lua")
 include("customization.lua")
 
 if CLIENT then
-    killicon.Add( "mg_charlie9", "VGUI/entities/mg_charlie9", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/icon_cac_weapon_sm_charlie9")
+    killicon.Add( "mg_xmike5", "VGUI/entities/mg_xmike5", Color(255, 0, 0, 255))
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_xmike5_killicon")
 end
 
 SWEP.Base = "mg_base"
