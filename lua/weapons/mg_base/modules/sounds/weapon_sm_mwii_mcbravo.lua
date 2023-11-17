@@ -57,7 +57,7 @@ sound.Add({
             }              
 })
 sound.Add({
-    name =           "weap_mcharlie_fire_plr_shot_01",
+    name =           "weap_mcharlie_sup_plr_shot_01",
     channel =        CHAN_WEAPON,
     level = 140,
     volume =         1,

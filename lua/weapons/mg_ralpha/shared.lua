@@ -31,7 +31,7 @@ SWEP.Trigger = {
     Time = 0.025
 }
 
-SWEP.Primary.Sound = Sound("mw19_mcharlie.Fire")
+SWEP.Primary.Sound = Sound("weap_mcharlie_fire_plr_shot_01")
 SWEP.Primary.Ammo = "Ar2"
 SWEP.Primary.ClipSize = 30
 SWEP.Primary.Automatic = true
@@ -52,13 +52,13 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("Atmo_AR3.Outside"),
-            Reflection = Sound("Reflection_AR.Outside")
+            Layer = Sound("weap_ar10_fire_plr_atmo_ext1_01"),
+            Reflection = Sound("")
         },
 
         Inside = { 
             Layer = Sound("Atmo_AR.Inside"),
-            Reflection = Sound("Reflection_AR.Inside")
+            Reflection = Sound("")
         }
     }
 }
