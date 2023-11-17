@@ -35,7 +35,7 @@ SWEP.Customization = {
     "att_vm_hybrid_west01", "att_vm_reflex_west04", "att_vm_2x_west01",
     "att_vm_hybrid_west03", "att_vm_4x_east01",
     "att_vm_4x_west01", "att_vm_4x_west02",
-    "att_vm_scope_mike14", "att_vm_scope_vz"},
+    "att_vm_scope_mike14", "att_vm_scope_vz", "att_vm_thermal_east01_hybrid"},
 
     {"att_laser", "attachment_vm_ar_mcharlie_laser01", "attachment_vm_ar_mcharlie_laser02", 
     "attachment_vm_ar_mcharlie_laser03"},
@@ -44,8 +44,8 @@ SWEP.Customization = {
 
 	{"attachment_vm_jup_cp08_br_xmike5_pgrip"},
 
-    {"att_grip", "attachment_vm_sm_mpapax_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_mpapax_angledgrip02", "attachment_vm_sm_mpapax_stubbygrip01", 
-    "attachment_vm_sm_mpapax_stubbygrip02", "attachment_vm_sm_mpapax_vertgrip01", "attachment_vm_sm_mpapax_vertgrip02", 
+    {"att_grip", "attachment_vm_sm_mpapax_bipodgrip", "attachment_vm_sm_mpapax_angledgrip01", "attachment_vm_sm_mpapax_angledgrip02", "attachment_vm_sm_xmike5_stubbygrip01", 
+    "attachment_vm_sm_xmike5_stubbygrip02", "attachment_vm_sm_mpapax_vertgrip01", "attachment_vm_sm_mpapax_vertgrip02", 
     "attachment_vm_sm_mpapax_vertgrip03"},
 	
 	{"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_compensator01", 

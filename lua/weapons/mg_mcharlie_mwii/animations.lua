@@ -74,9 +74,9 @@ SWEP.Animations = {
 
    ["Reload_Xmag_Fast"] = {
         Sequences = {"reload_fast_xmag"},
-        Length = 1.3,
+        Length = 1.7,
         Fps = 30,
-        MagLength = 0.96,
+        MagLength = 1.2,
         NextSequence = "Idle",
         Events = {
             {Time = 0.066, Callback = function(self) self:DisableGrip() end},
@@ -93,9 +93,9 @@ SWEP.Animations = {
 
     ["Reload_Xmag"] = {
         Sequences = {"reload_xmag"},
-        Length = 2.3,
+        Length = 2.6,
         Fps = 30,
-        MagLength = 1.33,
+        MagLength = 1.6,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -113,7 +113,7 @@ SWEP.Animations = {
 
    ["Reload_Fast"] = {
         Sequences = {"reload_fast"},
-        Length = 1.3,
+        Length = 1.5,
         Fps = 30,
         MagLength = 0.96,
         NextSequence = "Idle",
@@ -134,9 +134,9 @@ SWEP.Animations = {
 
     ["Reload_XmagLrg"] = {
         Sequences = {"reload_xmaglrg"},
-        Length = 2.3,
+        Length = 2.8,
         Fps = 30,
-        MagLength = 1.367,
+        MagLength = 1.6,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -154,9 +154,9 @@ SWEP.Animations = {
 
     ["Reload_XmagLrg_Fast"] = {
         Sequences = {"reload_fast_xmaglrg"},
-        Length = 1.3,
+        Length = 2,
         Fps = 30,
-        MagLength = 0.93,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -174,9 +174,9 @@ SWEP.Animations = {
 
     ["Reload_Empty"] = {
         Sequences = {"reload_empty"},
-        Length = 2.5,
+        Length = 2.8,
         Fps = 30,
-        MagLength = 1.467,
+        MagLength = 1.6,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -198,7 +198,7 @@ SWEP.Animations = {
 
     ["Reload_Empty_Fast"] = {
         Sequences = {"reload_empty_fast"},
-        Length = 1.7,
+        Length = 1.8,
         Fps = 30,
         MagLength = 0.933,
         NextSequence = "Idle",
@@ -219,9 +219,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Xmag"] = {
         Sequences = {"reload_empty_xmag"},
-        Length = 2.5,
+        Length = 3.1,
         Fps = 30,
-        MagLength = 1.467,
+        MagLength = 1.66,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -240,9 +240,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Xmag_Fast"] = {
         Sequences = {"reload_empty_fast_xmag"},
-        Length = 1.7,
+        Length = 2.1,
         Fps = 30,
-        MagLength = 0.933,
+        MagLength = 1.2,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -261,9 +261,9 @@ SWEP.Animations = {
 
   ["Reload_Empty_XmagLrg"] = {
         Sequences = {"reload_empty_xmaglrg"},
-        Length = 2.3,
+        Length = 3.3,
         Fps = 30,
-        MagLength = 1.467,
+        MagLength = 1.9,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -282,9 +282,9 @@ SWEP.Animations = {
 
    ["Reload_Empty_XmagLrg_Fast"] = {
         Sequences = {"reload_empty_fast_xmaglrg"},
-        Length = 1.7,
+        Length = 2.4,
         Fps = 30,
-        MagLength = 0.93,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0.0, Callback = function(self) self:AllowRuntimeMagPoseParam(false) end},
@@ -302,9 +302,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Smag"] = {
         Sequences = {"reload_empty_smag"},
-        Length = 2.6,
+        Length = 2.2,
         Fps = 30,
-        MagLength = 1.53,
+        MagLength = 1.23,
         NextSequence = "Idle",
         Events = {
             {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-15, 0, 40)) end},
@@ -343,9 +343,9 @@ SWEP.Animations = {
     },
     ["Reload_Smag"] = {
         Sequences = {"reload_smag"},
-        Length = 2.6,
+        Length = 2,
         Fps = 30,
-        MagLength = 1.53,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-15, 0, 40)) end},
@@ -364,9 +364,9 @@ SWEP.Animations = {
 
     ["Reload_Smag_Fast"] = {
         Sequences = {"reload_fast_smag"},
-        Length = 1.66,
+        Length = 1.3,
         Fps = 30,
-        MagLength = 0.9,
+        MagLength = 0.833,
         NextSequence = "Idle",
         Events = {
             {Time = 0.95, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-5, 0, 40)) end},

@@ -47,7 +47,7 @@ SWEP.Animations = {
 
     ["Reload"] = {
         Sequences = {"reload"},
-        Length = 2.3,
+        Length = 2.5,
         Fps = 30,
         MagLength = 1.4,
         NextSequence = "Idle",
@@ -65,9 +65,9 @@ SWEP.Animations = {
     
     ["Reload_Fast"] = {
         Sequences = {"reload_fast"},
-        Length = 1.33,
+        Length = 1.6,
         Fps = 30,
-        MagLength = 0.8,
+        MagLength = 1.1,
         NextSequence = "Idle",
         Events = {
             {Time = 1.1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-5, 0, 40)) end},
@@ -84,9 +84,9 @@ SWEP.Animations = {
 
     ["Reload_Smag"] = {
         Sequences = {"reload_smag"},
-        Length = 2.6,
+        Length = 2.4,
         Fps = 30,
-        MagLength = 1.6,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) end},
@@ -102,9 +102,9 @@ SWEP.Animations = {
 
     ["Reload_Fast_Smag"] = {
         Sequences = {"reload_fast_smag"},
-        Length = 1.6,
+        Length = 1.5,
         Fps = 30,
-        MagLength = 1.1	,
+        MagLength = 1.0,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) end},
@@ -120,9 +120,9 @@ SWEP.Animations = {
 	
     ["Reload_Drum"] = {
         Sequences = {"reload_Drum"},
-        Length = 2.7,
+        Length = 2.9,
         Fps = 30,
-        MagLength = 1.83,
+        MagLength = 2.3,
         NextSequence = "Idle",
         Events = {
             {Time = 0.067, Callback = function(self) self:DoSound(Sound("ps_wfoly_plr_sm_charlie9_reload_drum_01")) end},
@@ -139,9 +139,9 @@ SWEP.Animations = {
 
     ["Reload_Drum_Fast"] = {
         Sequences = {"reload_fast_Drum"},
-        Length = 1.43,
+        Length = 2,
         Fps = 30,
-        MagLength = 0.9,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.Drum"), Vector(-5, 0, 40)) end},
@@ -158,9 +158,9 @@ SWEP.Animations = {
 
     ["Reload_Empty"] = {
         Sequences = {"reload_empty"},
-        Length = 2.26,
+        Length = 2.8,
         Fps = 30,
-        MagLength = 1.3,
+        MagLength = 1.6,
         NextSequence = "Idle",
         Events = {
             {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-15, 0, 40)) end},
@@ -178,9 +178,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Fast"] = {
         Sequences = {"reload_empty_fast"},
-        Length = 1.56,
+        Length = 2,
         Fps = 30,
-        MagLength = 0.8,
+        MagLength = 1.1,
         NextSequence = "Idle",
         Events = {
             {Time = 0.95, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-5, 0, 40)) end},
@@ -198,9 +198,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Smag"] = {
         Sequences = {"reload_empty_smag"},
-        Length = 2.6,
+        Length = 2.7,
         Fps = 30,
-        MagLength = 1.53,
+        MagLength = 1.7,
         NextSequence = "Idle",
         Events = {
             {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-15, 0, 40)) end},
@@ -219,9 +219,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Fast_Smag"] = {
         Sequences = {"reload_empty_fast_smag"},
-        Length = 1.66,
+        Length = 1.8,
         Fps = 30,
-        MagLength = 0.9,
+        MagLength = 1.1,
         NextSequence = "Idle",
         Events = {
             {Time = 0.95, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.SMG.Metal"), Vector(-5, 0, 40)) end},
@@ -240,9 +240,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Drum"] = {
         Sequences = {"reload_empty_Drum"},
-        Length = 2.86,
+        Length = 3.9,
         Fps = 30,
-        MagLength = 1.53,
+        MagLength = 2.45,
         NextSequence = "Idle",
         Events = {
             {Time = 1, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.Drum"), Vector(-15, 0, 40)) end},
@@ -261,9 +261,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Drum_Fast"] = {
         Sequences = {"reload_empty_fast_drum"},
-        Length = 1.66,
+        Length = 2.5,
         Fps = 30,
-        MagLength = 0.9,
+        MagLength = 1.5,
         NextSequence = "Idle",
         Events = {
             {Time = 0.95, Callback = function(self) self:DoSpatialSound(Sound("MW_MagazineDrop.Drum"), Vector(-5, 0, 40)) end},
