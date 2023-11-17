@@ -1,18 +1,18 @@
 // Created by Crowbar 0.71
 
-$modelname "v_mcharlie_test.mdl"
+$modelname "v_ralpha_test.mdl"
 
 $bodygroup "receiver"
 
-	studio "att_vm_p08_ar_mcharlie_rec_v0_LOD0.smd"
+	studio "att_vm_p08_ar_ralpha_rec_v0_LOD0.smd"
 	blank
 	blank
 	blank
 }
 $bodygroup "tag_sight"
 {
-	studio "att_vm_p08_ar_mcharlie_rec_v0_sight_on.smd"
-	studio "att_vm_p08_ar_mcharlie_rec_v0_sight_off.smd"
+	studio "att_vm_p08_ar_ralpha_rec_v0_sight_on.smd"
+	studio "att_vm_p08_ar_ralpha_rec_v0_sight_off.smd"
 	blank
 }
 
@@ -2420,10 +2420,10 @@ $sequence "melee_hit_03" {
 $sequence "hybrid_toggle_on" {
 	"m13anims\vm_p08_ar_mcharlie_hybrid01_off.smd"
 	rotate -90
-	{ event 9021 1 "0" }
+	{ event 9011 2 "0" }
 	{ event 5004 4 "Flipsight.Up" }
 	{ event 5004 16 "Viewmodel.Small" }
-	{ event 9021 22 "1" }
+	{ event 9011 22 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -2452,10 +2452,9 @@ $sequence "hybrid_toggle_on" {
 $sequence "hybrid_toggle_off" {
 	"m13anims\vm_p08_ar_mcharlie_hybrid01_on.smd"
 	rotate -90
-	{ event 9011 1 "0" }
+	{ event 9011 1 "1" }
 	{ event 5004 4 "Flipsight.Down" }
 	{ event 5004 16 "Viewmodel.Small" }
-	{ event 9011 20 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
