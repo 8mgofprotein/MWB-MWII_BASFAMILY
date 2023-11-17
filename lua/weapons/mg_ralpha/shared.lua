@@ -106,7 +106,7 @@ SWEP.Recoil = {
     Horizontal = {-1.5, 1.5}, --random value between the 2
     Shake = 2.2, --camera shake
     AdsMultiplier = 0.25, --multiply the values by this amount while aiming
-    Seed = 6589132, --give this a random number until you like the current recoil pattern
+    Seed = 61423123, --give this a random number until you like the current recoil pattern
     ViewModelMultiplier = 1
 }
 

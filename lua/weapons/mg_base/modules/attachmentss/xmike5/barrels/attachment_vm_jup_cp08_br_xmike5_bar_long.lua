@@ -7,10 +7,11 @@ ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-
-end
-
-function ATTACHMENT:PostProcess(weapon)
-    BaseClass.PostProcess(self, weapon)
-   
+    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.3
+    weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.3
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.87
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.87
+    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.86
+    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.86
+    weapon.Cone.Hip = weapon.Cone.Hip * 1.1
 end
