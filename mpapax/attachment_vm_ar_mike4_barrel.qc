@@ -1,26 +1,26 @@
 // Created by Crowbar 0.74
 
-$modelname "att_vm_p08_ar_mcharlie_barlong_v0_LOD0.mdl"
+$modelname "att_vm_p08_ar_mcbravo_barshort_v0_LOD0.mdl"
 
 $bodygroup "slide"
 {
-	studio "att_vm_p08_ar_mcharlie_barlong_v0_LOD0.smd"
+	studio "att_vm_p08_ar_mcbravo_barshort_v0_LOD0.smd"
 }
 $bodygroup "tag_sight"
 {
-	studio "att_vm_p08_ar_mcharlie_barlong_v0_sight_on.smd"
-	studio "att_vm_p08_ar_mcharlie_barlong_v0_sight_off.smd"
+	studio "att_vm_p08_ar_mcbravo_barshort_v0_sight_on.smd"
+	studio "att_vm_p08_ar_mcbravo_barshort_v0_sight_off.smd"
 	blank
 }
 $bodygroup "tag_tip"
 {
-	studio "att_vm_p08_ar_mcharlie_barlong_v0_tip.smd"
+	studio "att_vm_p08_ar_mcbravo_barshort_v0_tip.smd"
 	blank
 }
 $bodygroup "laser"
 {
 	blank
-	studio "att_vm_p08_ar_mcharlie_barlong_v0_laser_on.smd"
+	studio "att_vm_p08_ar_mcbravo_barshort_v0_laser_on.smd"
 }
 $surfaceprop "default"
 
@@ -44,8 +44,8 @@ $bbox -0.494 -1.164 -1.084 14.052 1.414 2.751
 $definebone "tag_barrel_attach" "" 0.000000 0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_tip" "tag_barrel_attach" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_flash_attachment" "tag_tip" 0.000000 0.000000 -0.015000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "tag_folding_grip" "tag_barrel_attach" 3.288317 0.002507 -1.253395 -0.000000 0.000000 0.000000 -2.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "tag_grip_attach" "tag_barrel_attach" 2.943642 0.002507 -1.253395 -0.000000 0.000000 0.000000 3.00000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_folding_grip" "tag_barrel_attach" 3.288317 0.002507 -1.253395 -0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_grip_attach" "tag_barrel_attach" 2.943642 0.002507 -1.253395 -0.000000 0.000000 0.000000 5.00000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_laser_attach" "tag_barrel_attach" 7.388278 -1.275639 0.000424 -0.000000 0.000000 89.999985 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_silencer" "tag_barrel_attach" 5.167972 0.001080 -0.000502 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_sight_off2" "tag_barrel_attach" 9.792974 0.017874 1.906720 -0.000000 0.000000 -179.999985 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
@@ -53,7 +53,7 @@ $definebone "tag_sight_on2" "tag_barrel_attach" 9.792974 0.017874 1.906720 -0.00
 
 
 $sequence "reference" {
-	"att_vm_p08_ar_mcharlie_barlong_v0_LOD0.smd"
+	"att_vm_p08_ar_mcbravo_barshort_v0_LOD0.smd"
 	fadein 0.2
 	fadeout 0.2
 	fps 30

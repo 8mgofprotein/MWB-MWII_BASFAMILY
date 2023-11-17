@@ -482,7 +482,7 @@ $animation "a_jog_offset_corrective_animation" "v_mike4_anims\a_jog_offset_corre
 $animation "a_firemode_idle_corrective_animation" "v_mike4_anims\a_firemode_idle_corrective_animation.smd" {
 }
 
-$animation "a_semi_override_additive_corrective_animation" "v_mike4_anims\a_semi_override_additive_corrective_animation.smd" {
+$animation "a_semi_override_additive_corrective_animation" "basbanims\semi_cor.smd" {
 }
 
 $animation "a_jog_idle_corrective_animation" "v_mike4_anims\a_jog_idle_corrective_animation.smd" {
@@ -622,7 +622,7 @@ $animation "a_firemode_idle" "v_mike4_anims\a_firemode_idle.smd" {
 	subtract "a_firemode_idle_corrective_animation" 0
 }
 
-$animation "a_semi_override_additive" "v_mike4_anims\a_semi_override_additive.smd" {
+$animation "a_semi_override_additive" "basbanims\semi_add.smd" {
 	fps 30
 	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
 	subtract "a_semi_override_additive_corrective_animation" 0
