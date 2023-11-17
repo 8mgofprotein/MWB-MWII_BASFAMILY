@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "60 Round Magazine"
-ATTACHMENT.Model = Model("models/kyo/att_wm_p08_ar_ralpha_mcbravo_v0_LOD0.mdl")
+ATTACHMENT.Model = Model("models/kyo/att_wm_p08_ar_mcbravo_xmaglrg_v0_LOD0.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_xmags2_clip.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

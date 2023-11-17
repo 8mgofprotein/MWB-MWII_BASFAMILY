@@ -3,6 +3,13 @@ ATTACHMENT.Name = "60 Round Magazine"
 ATTACHMENT.Model = Model("models/kyo/att_wm_p08_ar_mcharlie_xmaglrg_v0_LOD0.mdl")
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_xmags2_clip.vmt")
 
+ATTACHMENT.BulletList = {
+    [0] = {"j_ammo_31"},
+	[1] = {"j_ammo_01"},
+	[2] = {"j_ammo_02"},
+	[3] = {"j_ammo_03"},
+	[4] = {"j_ammo_04"},
+}
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
