@@ -315,7 +315,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"kyo/mwii/mpapax/weap_mpapax_inspect_boltpull.wav",
+		"kyo/mwii/mpapax/wfoly_plr_sm_mpapax_boltpull.wav",
 		}
 })
 -- Sound: 47
@@ -326,7 +326,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"kyo/mwii/mpapax/weap_mpapax_inspect_boltclose.ogg",
+		"kyo/mwii/mpapax/wfoly_plr_sm_mpapax_boltclose.wav",
 		}
 })
 sound.Add({

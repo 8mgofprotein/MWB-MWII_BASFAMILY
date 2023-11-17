@@ -735,3 +735,23 @@ sound.Add({
 		"kyo/mwii/mcharliebraavorttle/weap_mcbravo_inspect_boltclose.wav",
 		}
 })
+sound.Add({
+	name = "weap_mcharlie_inspect_boltpull",
+	channel = CHAN_WPNFOLEY + 4,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mcharliebraavorttle/wfoly_plr_ar_mcharlie_boltpull.wav",
+		}
+})
+sound.Add({
+	name = "weap_mcharlie_inspect_boltclose",
+	channel = CHAN_WPNFOLEY + 7,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"kyo/mwii/mcharliebraavorttle/wfoly_plr_ar_mcharlie_boltpush.wav",
+		}
+})
