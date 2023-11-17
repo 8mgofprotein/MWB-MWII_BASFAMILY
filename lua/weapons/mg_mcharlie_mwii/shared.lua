@@ -37,7 +37,7 @@ SWEP.Primary.ClipSize = 30
 SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 895.5223880597015  
+SWEP.Primary.RPM = 845
 SWEP.CanChamberRound = true  
   
 SWEP.ParticleEffects = {
@@ -102,12 +102,12 @@ SWEP.Cone = {
 }
 
 SWEP.Recoil = {
-    Vertical = {1, 1.7}, --random value between the 2
+    Vertical = {0.4, 1.3}, --random value between the 2
     Horizontal = {-1.3, 1.3}, --random value between the 2
     Shake = 1.4, --camera shake
     AdsMultiplier = 0.25, --multiply the values by this amount while aiming
-    Seed = 6589132, --give this a random number until you like the current recoil pattern
-    ViewModelMultiplier = 1
+    Seed = 3213123, --give this a random number until you like the current recoil pattern
+    ViewModelMultiplier = 0.5
 }
 
 SWEP.Bullet = {
@@ -161,8 +161,8 @@ SWEP.ViewModelOffsets = {
         }
     },
 
-    RecoilMultiplier = 0.5,
-    KickMultiplier = 0.4,
+    RecoilMultiplier = 0.6,
+    KickMultiplier = 0.3,
     AimKickMultiplier = 1
 }
 

@@ -24,7 +24,7 @@ SWEP.VModel = Model("models/kyo/v_ralpha_test.mdl")
 SWEP.WorldModel = Model("models/viper/mw/weapons/w_mcharlie.mdl")
 
 SWEP.Slot = 2
-SWEP.HoldType = "Rifle"
+SWEP.HoldType = "TinyGun"
 SWEP.Trigger = {
     PressedSound = Sound("mw19.mcharlie.fire.first"),
     ReleasedSound = Sound("mw19.mike4.fire.disconnector"),
@@ -37,7 +37,7 @@ SWEP.Primary.ClipSize = 30
 SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 895.5223880597015  
+SWEP.Primary.RPM = 750
 SWEP.CanChamberRound = true  
   
 SWEP.ParticleEffects = {
@@ -161,8 +161,8 @@ SWEP.ViewModelOffsets = {
         }
     },
 
-    RecoilMultiplier = 0.5,
-    KickMultiplier = 0.4,
+    RecoilMultiplier = 0.7,
+    KickMultiplier = 0.7,
     AimKickMultiplier = 1
 }
 

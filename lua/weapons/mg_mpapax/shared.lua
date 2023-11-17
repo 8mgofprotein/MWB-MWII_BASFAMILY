@@ -100,7 +100,7 @@ SWEP.Cone = {
     AdsMultiplier = 0.09, --multiply the increase value by this amount while aiming
     Max = 1.15, --the cone size will not go beyond this size
     Decrease = 0.75, -- amount (in seconds) for the cone to completely reset (from max)
-    Seed = 6215 --just give this a random number
+    Seed = 62152123 --just give this a random number
 }
 
 SWEP.Recoil = {
@@ -108,7 +108,7 @@ SWEP.Recoil = {
     Horizontal = {-1, 1}, --random value between the 2
     Shake = 0.95, --camera shake
     AdsMultiplier = 0.35, --multiply the values by this amount while aiming
-    Seed = -1547 --give this a random number until you like the current recoil pattern
+    Seed = -1547123 --give this a random number until you like the current recoil pattern
 }
 
 SWEP.Bullet = {

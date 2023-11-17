@@ -166,8 +166,8 @@ SWEP.ViewModelOffsets = {
         }
     },
 
-    RecoilMultiplier = 0.3,
-    KickMultiplier = 0.3,
+    RecoilMultiplier = 0.4,
+    KickMultiplier = 0.6,
     AimKickMultiplier = 1.5
 }
 
