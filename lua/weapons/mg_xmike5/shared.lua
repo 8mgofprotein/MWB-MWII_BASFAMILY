@@ -38,8 +38,7 @@ SWEP.Primary.BurstRounds = 1
 SWEP.Primary.BurstDelay = 0
 SWEP.Primary.RPM = 666  
 SWEP.CanChamberRound = true  
-SWEP.EmptyFreezeInspectDelta = 0.15
-SWEP.FreezeInspectDelta = 0.22
+SWEP.FreezeInspectDelta = 0.19
 SWEP.AlternateGrips = false
   
 SWEP.ParticleEffects = {

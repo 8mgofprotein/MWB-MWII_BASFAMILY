@@ -111,9 +111,9 @@ SWEP.Recoil = {
 }
 
 SWEP.Bullet = {
-    Damage = {30, 6}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
-    DropOffStartRange = 10, --in meters, damage will start dropping off after this range
-    EffectiveRange = 30, --in meters, damage scales within this distance
+    Damage = {30, 12}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
+    DropOffStartRange = 9, --in meters, damage will start dropping off after this range
+    EffectiveRange = 25, --in meters, damage scales within this distance
     Range = 160, --in meters, after this distance the bullet stops existing
     Tracer = false, --show tracer
     NumBullets = 1, --the amount of bullets to fire
@@ -142,7 +142,7 @@ SWEP.WorldModelOffsets = {
 
 SWEP.ViewModelOffsets = {
     Aim = {
-        Angles = Angle(0, 0, 0),
+        Angles = Angle(0, 0, -1.5),
         Pos = Vector(0.34, 2, 0.07)
     },
     Idle = {

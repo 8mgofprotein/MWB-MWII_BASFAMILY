@@ -676,9 +676,8 @@ SWEP.Animations = {
         }
     },
 
-
     ["HybridOn"] = {
-        Sequences = {"hybrid_toggle_off"},
+        Sequences = {"hybrid_toggle_on"},
         Fps = 30,
         Length = 0.9,
         NextSequence = "Idle",
@@ -688,7 +687,7 @@ SWEP.Animations = {
     },
 
     ["HybridOff"] = {
-        Sequences = {"hybrid_toggle_on"},
+        Sequences = {"hybrid_toggle_off"},
         Fps = 30,
         Length = 0.9,
         NextSequence = "Idle",
