@@ -10,7 +10,7 @@ include("customization.lua")
 
 if CLIENT then
     killicon.Add( "mg_mcharlie_mwii", "VGUI/entities/mg_mcharlie_mwii", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_mcharlie_mwii_killicon")
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_mcharlie_mwii_killicons")
 end
 
 SWEP.Base = "mg_base"
@@ -21,7 +21,7 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Assault Rifles"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/v_mcharlie_test.mdl")
-SWEP.WorldModel = Model("models/viper/mw/weapons/w_mcharlie.mdl")
+SWEP.WorldModel = Model("models/kyo/wm_mcharlie.mdl")
 
 SWEP.Slot = 2
 SWEP.HoldType = "Rifle"
@@ -134,11 +134,13 @@ SWEP.Zoom = {
     }
 }
 
+
 SWEP.WorldModelOffsets = {
     Bone = "tag_sling",
-    Angles = Angle(0, 95, -90),
-    Pos = Vector(3,-6,-3.5)
+    Angles = Angle(5,-90,180),
+    Pos = Vector(3,9,-3.5)
 }
+
 
 SWEP.ViewModelOffsets = {
     Aim = {

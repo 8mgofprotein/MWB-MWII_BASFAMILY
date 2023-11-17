@@ -20,7 +20,7 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Submachine Guns"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/v_mpapax_test.mdl")
-SWEP.WorldModel = Model("models/viper/mw/weapons/w_charlie9.mdl")
+SWEP.WorldModel = Model("models/kyo/wm_mpapax.mdl")
 
 SWEP.Slot = 2
 SWEP.HoldType = "TinyGun"
@@ -135,10 +135,11 @@ SWEP.Zoom = {
     }
 }
 
+
 SWEP.WorldModelOffsets = {
     Bone = "tag_sling",
-    Angles = Angle(0,90,-90),
-    Pos = Vector(1,-4,-3.5)
+    Angles = Angle(10,-90,180),
+    Pos = Vector(3,9,-3)
 }
 
 SWEP.ViewModelOffsets = {

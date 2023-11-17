@@ -20,10 +20,10 @@ SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Assault Rifles"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/kyo/v_xmike5_test.mdl")
-SWEP.WorldModel = Model("models/viper/mw/weapons/w_charlie9.mdl")
+SWEP.WorldModel = Model("models/kyo/wm_xmike5.mdl")
 
 SWEP.Slot = 2
-SWEP.HoldType = "TinyGun"
+SWEP.HoldType = "Rifle"
 SWEP.Trigger = {
     PressedSound = Sound("mw19.mcharlie.fire.first"),
     ReleasedSound = Sound("mw19.mike4.fire.disconnector"),
@@ -137,8 +137,8 @@ SWEP.Zoom = {
 
 SWEP.WorldModelOffsets = {
     Bone = "tag_sling",
-    Angles = Angle(0,90,-90),
-    Pos = Vector(1,-4,-3.5)
+    Angles = Angle(5,-90,180),
+    Pos = Vector(3,9,-3)
 }
 
 SWEP.ViewModelOffsets = {
