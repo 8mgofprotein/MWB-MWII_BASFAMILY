@@ -738,7 +738,6 @@ sound.Add({
 sound.Add({
 	name = "weap_mcharlie_inspect_boltpull",
 	channel = CHAN_WPNFOLEY + 4,
-	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
