@@ -6,7 +6,7 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-    weapon.Recoil.AdsMultiplier = 1.05
+    weapon.Recoil.AdsMultiplier = 0.34
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.06
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.06
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.02
