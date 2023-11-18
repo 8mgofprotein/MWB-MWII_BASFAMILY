@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "14'' Bruen Echelon"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p08_ar_mcharlie_barlong_v0_LOD0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_suppressorbarrel.vmt")
+ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_longbarrel.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)

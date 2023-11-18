@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "12'' Bruen SZ-36"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p08_sm_mpapax_barlong_v0_LOD0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_longbarrel.vmt")
+ATTACHMENT.Icon = Material("kyo/icons/mpapaxbarlong.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
