@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "6.5'' EXF Vorpal"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p08_ar_mcbravo_barhvyshort_v0_LOD0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_suppressorbarrel.vmt")
+ATTACHMENT.Icon = Material("kyo/icons/barhvyshortbravo.vmt")
 
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "50 Round Drum"
 ATTACHMENT.Model = Model("models/kyo/att_wm_p08_sm_mpapax_drummag_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_drummag.vmt")
+ATTACHMENT.Icon = Material("kyo/icons/mpapaxdrummag.vmt")
 ATTACHMENT.BulletList = {
     [0] = {"j_ammo_09"},
 	[1] = {"j_ammo_02"},

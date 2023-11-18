@@ -39,7 +39,7 @@ SWEP.Customization = {
 
     {"attachment_vm_ar_ralpha_barrel", "attachment_vm_ar_ralpha_barmed", "attachment_vm_ar_ralpha_barlong", "attachment_vm_ar_ralpha_barshort"},
 
-    {"attachment_vm_ar_ralpha_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac", "attachment_vm_ar_mcharlieb_stock", "attachment_vm_ar_ralpha_stockno"},
+    {"attachment_vm_ar_ralpha_stock", "attachment_vm_sm_mpapax_stock", "attachment_vm_sm_mpapax_stockl", "attachment_vm_sm_mpapax_stockno", "attachment_vm_sm_mpapax_stocktac", "attachment_vm_ar_mcharlieb_stock", "attachment_vm_ar_ralpha_stockno"},
 
     {"attachment_vm_sm_ralpha_pistgrip"},
 

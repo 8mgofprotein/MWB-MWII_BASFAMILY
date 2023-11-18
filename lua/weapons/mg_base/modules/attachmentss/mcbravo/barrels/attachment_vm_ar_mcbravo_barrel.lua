@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "Chimera Default Suppressed Barrel"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p08_ar_mcbravo_barrel_v0_lod0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_suppressorbarrel.vmt")
+ATTACHMENT.Icon = Material("kyo/icons/mike5nostock.vmt")
 ATTACHMENT.ExcludedCategories = {"Muzzle Devices"}
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

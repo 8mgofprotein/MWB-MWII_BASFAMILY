@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "60 Round Magazine"
 ATTACHMENT.Model = Model("models/kyo/att_wm_p08_ar_mcharlie_xmaglrg_v0_LOD0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/mcharlie/icon_attachment_ar_mcharlie_xmags2_clip.vmt")
+ATTACHMENT.Icon = Material("kyo/icons/xmaglrgm13b.vmt")
 
 ATTACHMENT.BulletList = {
     [0] = {"j_ammo_31"},

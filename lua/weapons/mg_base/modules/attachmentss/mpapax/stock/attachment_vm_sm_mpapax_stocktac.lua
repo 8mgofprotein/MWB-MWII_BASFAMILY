@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_stock"
 ATTACHMENT.Name = "Ravage-8"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p08_sm_mpapax_stocktac_v0.mdl")
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/charlie9/icon_attachment_sm_charlie9_fullstock.vmt")
+ATTACHMENT.Icon = Material("kyo/icons/mpapaxstockh.vmt")
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
