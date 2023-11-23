@@ -250,7 +250,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_empty_fast_magin_v2_01",
 	channel = CHAN_WPNFOLEY + 3,
-	
+    level = 140,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -261,7 +261,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_empty_fast_magin_v2_02",
 	channel = CHAN_WPNFOLEY + 4,
-	
+    level = 140,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -272,7 +272,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_empty_fast_magout_01",
 	channel = CHAN_WPNFOLEY + 5,
-	
+    level = 140,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -316,7 +316,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_empty_magout_01",
 	channel = CHAN_WPNFOLEY + 9,
-	
+    level = 90,	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -327,7 +327,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_empty_mvmnt",
 	channel = CHAN_WPNFOLEY + 10,
-	
+    level = 140,	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -441,7 +441,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_magin_v2_02",
 	channel = CHAN_WPNFOLEY + 1,
-	
+    level = 140,	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -451,7 +451,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_reload_magout_01",
 	channel = CHAN_WPNFOLEY + 2,
-	
+    level = 140,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -461,7 +461,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_bolt_release",
 	channel = CHAN_WPNFOLEY + 3,
-	
+    level = 140,	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -471,7 +471,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_end",
 	channel = CHAN_WPNFOLEY + 1,
-	
+    level = 140,	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -522,8 +522,8 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_fast_magout_01",
 	channel = CHAN_WPNFOLEY + 3,
-	
-	volume = 1,
+    level = 140,	
+	volume = 2,
 	pitch = {100,100},
 	sound = {
 		"kyo/mwii/mcharliebraavorttle/wfoly_ar_mcharlie_xmag_reload_empty_fast_magout_01.wav",
@@ -563,7 +563,7 @@ sound.Add({
 sound.Add({
 	name = "wfoly_ar_mcharlie_xmag_reload_empty_magout_01",
 	channel = CHAN_WPNFOLEY + 1,
-	
+    level = 140,	
 	volume = 1,
 	pitch = {100,100},
 	sound = {
