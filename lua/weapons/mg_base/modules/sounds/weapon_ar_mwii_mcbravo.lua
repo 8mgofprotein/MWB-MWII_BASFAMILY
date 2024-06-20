@@ -783,13 +783,13 @@ sound.Add({
     name =           "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_02",
     channel =        CHAN_WPNFOLEY + 7,
     volume =         1,
-    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_reload_empty_xmag_rattle.wav"}
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_reload_empty_xmag_magout.wav"}
 })
 sound.Add({
     name =           "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_03",
     channel =        CHAN_WPNFOLEY + 8,
     volume =         1,
-    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_reload_empty_xmag_magout.wav"}
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_reload_empty_xmag_rattle.wav"}
 })
 sound.Add({
     name =           "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_04",
