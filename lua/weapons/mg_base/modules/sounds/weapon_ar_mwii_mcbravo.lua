@@ -168,6 +168,80 @@ sound.Add({
     volume =         1,
     sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_end.wav"}
 })
+---------------------------------------------------------------------------------- inspect_empty
+
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_01",
+    channel =        CHAN_WPNFOLEY + 6,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_raise.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_02",
+    channel =        CHAN_WPNFOLEY + 7,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_magout.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_03",
+    channel =        CHAN_WPNFOLEY + 8,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_rattle.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_04",
+    channel =        CHAN_WPNFOLEY + 9,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_finger.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_05",
+    channel =        CHAN_WPNFOLEY + 10,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_rotate.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_06",
+    channel =        CHAN_WPNFOLEY + 11,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_boltclear.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_07",
+    channel =        CHAN_WPNFOLEY + 12,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_rotate2.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_08",
+    channel =        CHAN_WPNFOLEY + 13,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_magin.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_09",
+    channel =        CHAN_WPNFOLEY + 14,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_rotate3.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_10",
+    channel =        CHAN_WPNFOLEY + 15,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_boltback.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_11",
+    channel =        CHAN_WPNFOLEY + 16,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_boltclose.wav"}
+})
+sound.Add({
+    name =           "ps_wfoly_plr_ar_mcbravo_inspect_empty_12",
+    channel =        CHAN_WPNFOLEY + 17,
+    volume =         1,
+    sound = {"fritz/weapons/mcbravo/p08_ar_mcbravo_inspect_empty_end.wav"}
+})
 
 ---------------------------------------------------------------------------------- inspect_empty_smag
 

@@ -1439,6 +1439,7 @@ $sequence "reload_empty_xmag" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 { event 5004 0 "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_01" }
+{ event 9011 1 "0" }
 { event 5004 12 "Viewmodel.Small" }
 { event 5004 22 "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_02" }
 { event 5004 22 "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_03" }
@@ -1452,6 +1453,7 @@ $sequence "reload_empty_xmag" {
 { event 9031 53 "ResetBullets" }
 { event 5004 71 "Viewmodel.Medium" }
 { event 5004 71 "ps_wfoly_plr_ar_mcbravo_reload_empty_xmag_06" }
+{ event 9011 79 "1" }
 { event 5004 88 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
