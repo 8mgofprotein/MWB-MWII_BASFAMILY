@@ -26,12 +26,12 @@ SWEP.WorldModel = Model("models/kyo/wm_mcharlie.mdl")
 SWEP.Slot = 2
 SWEP.HoldType = "Rifle"
 SWEP.Trigger = {
-    PressedSound = Sound("mw19.mcharlie.fire.first"),
-    ReleasedSound = Sound("mw19.mike4.fire.disconnector"),
+    PressedSound = Sound("weap_ar_mcharlieb_released"),
+    ReleasedSound = Sound("weap_ar_mcharlieb_disconnector"),
     Time = 0.025
 }
 
-SWEP.Primary.Sound = Sound("weap_mcharlie_fire_plr_shot_01")
+SWEP.Primary.Sound = Sound("weap_mcharlie_fire_plr_shot")
 SWEP.Primary.Ammo = "Ar2"
 SWEP.Primary.ClipSize = 30
 SWEP.Primary.Automatic = true
@@ -52,13 +52,13 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("weap_ar10_fire_plr_atmo_ext1_01"),
-            Reflection = Sound("")
+            Layer = Sound("Atmo_AR4.Outside"),
+            Reflection = Sound("Reflection_AR.Outside")
         },
 
         Inside = { 
             Layer = Sound("Atmo_AR.Inside"),
-            Reflection = Sound("")
+            Reflection = Sound("Reflection_AR.Inside")
         }
     }
 }

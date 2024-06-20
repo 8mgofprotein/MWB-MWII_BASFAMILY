@@ -15,7 +15,7 @@ end
 SWEP.Base = "mg_base"
 SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vertpro_offset", "grip_barmini_offset", "grip_barshort_offset", "grip_barlong_offset" , "grip_barshort_gripang_offset", "grip_barshort_gripvert_offset", "grip_barshort_gripvertpro_offset"}
 
-SWEP.PrintName = "BAS - P"
+SWEP.PrintName = "BAS-P"
 SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Submachine Guns"
 SWEP.Spawnable = true
@@ -25,8 +25,8 @@ SWEP.WorldModel = Model("models/kyo/wm_mpapax.mdl")
 SWEP.Slot = 2
 SWEP.HoldType = "TinyGun"
 SWEP.Trigger = {
-    PressedSound = Sound("weap_charlie9_fire_first_plr"),
-    ReleasedSound = Sound("weap_mpapa7_deadtrigger_plr_01"),
+    PressedSound = Sound("weap_mpapax_fire_first_plr"),
+    ReleasedSound = Sound("weap_mpapax_deadtrigger_plr_01"),
     Time = 0.015
 }
 
@@ -54,13 +54,13 @@ SWEP.Reverb = {
 
     Sounds = {
         Outside = {
-            Layer = Sound("weap_smg7_fire_plr_atmo_ext1_01"),
-            Reflection = Sound("")
+            Layer = Sound("Atmo_SMG.Outside"),
+            Reflection = Sound("Reflection_Pistol.Outside")
         },
 
         Inside = { 
-            Layer = Sound("weap_smg_fire_plr_atmo_int1_01"),
-            Reflection = Sound("")
+            Layer = Sound("Atmo_SMG.Inside"),
+            Reflection = Sound("Reflection_Pistol.Inside")
         }
     }
 }

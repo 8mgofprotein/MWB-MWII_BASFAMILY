@@ -6,12 +6,12 @@ function SWEP:doSuppressorStats()
         RoomScale = 50000,
         Sounds = {
             Outside = {
-                Layer = Sound("weap_smg_sup_fire_plr_atmo_ext2_01"),
+                Layer = Sound("Atmo_SMG_Sup.Outside"),
                 Reflection = Sound("Reflection_ARSUP.Outside")
             },
     
             Inside = { 
-                Layer = Sound("weap_pistol_sup_fire_plr_atmo_int1_01"),
+                Layer = Sound("Atmo_Pistol_Sup.Inside"),
                 Reflection = Sound("Reflection_ARSUP.Inside")
             }
         }

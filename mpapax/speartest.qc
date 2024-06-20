@@ -919,7 +919,7 @@ $sequence "holster" {
 	"basbanims\jup_vm_p08_br_xmike5_drop.smd"
 	rotate -90
 	{ event 9011 0 "1" }
-	{ event 5004 0 "wfoly_ar_mcharlie_drop" }
+	{ event 5004 0 "wfoly_ar_mcharlieb_drop" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1121,7 +1121,7 @@ $sequence "reload_fast" {
 	{ event 5004 7 "wfoly_plr_br_xmike5_reload_fast_04" }
 	{ event 9031 21 "ResetBullets" }
 	{ event 5004 28 "wfoly_plr_br_xmike5_reload_fast_05" }
-	{ event 5004 21 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 21 "MW_MagazineDrop.SMG.Poly" }
 	{ event 5004 36 "wfoly_plr_br_xmike5_reload_fast_06" }
 	{ event 5004 38 "wfoly_plr_br_xmike5_reload_fast_07" }
 	{ event 5004 43 "wfoly_plr_br_xmike5_reload_fast_08" }
@@ -1160,7 +1160,7 @@ $sequence "reload_empty" {
 	{ event 5004 14 "wfoly_plr_br_xmike5_reload_empty_03" }
 	{ event 5004 31 "wfoly_plr_br_xmike5_reload_empty_04" }
 	{ event 9031 29 "ResetBullets" }
-	{ event 5004 29 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 29 "MW_MagazineDrop.SMG.Poly" }
 	{ event 5004 46 "wfoly_plr_br_xmike5_reload_empty_05" }
 	{ event 5004 56 "wfoly_plr_br_xmike5_reload_empty_06" }
 	{ event 5004 59 "wfoly_plr_br_xmike5_reload_empty_07" }
@@ -1201,7 +1201,7 @@ $sequence "reload_empty_fast" {
 	{ event 5004 5 "wfoly_plr_br_xmike5_reload_empty_fast_02" }
 	{ event 5004 7 "wfoly_plr_br_xmike5_reload_empty_fast_03" }
 	{ event 5004 31 "wfoly_plr_br_xmike5_reload_empty_fast_04" }
-	{ event 5004 21 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 21 "MW_MagazineDrop.SMG.Poly" }
 	{ event 9031 21 "ResetBullets" }
 	{ event 5004 36 "wfoly_plr_br_xmike5_reload_empty_fast_05" }
 	{ event 5004 38 "wfoly_plr_br_xmike5_reload_empty_fast_06" }
@@ -1285,7 +1285,7 @@ $sequence "reload_fast_xmag" {
 	{ event 5004 23 "wfoly_plr_br_xmike5_reload_fast_xmag_04" }
 	{ event 9031 21 "ResetBullets" }
 	{ event 5004 36 "wfoly_plr_br_xmike5_reload_fast_xmag_05" }
-	{ event 5004 21 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 21 "MW_MagazineDrop.SMG.Poly" }
 	{ event 5004 45 "wfoly_plr_br_xmike5_reload_fast_xmag_06" }
 	{ event 5004 47 "wfoly_plr_br_xmike5_reload_fast_xmag_07" }
 	{ event 5004 57 "wfoly_plr_br_xmike5_reload_fast_xmag_08" }
@@ -1324,7 +1324,7 @@ $sequence "reload_empty_xmag" {
 	{ event 5004 17 "wfoly_plr_br_xmike5_reload_empty_xmag_03" }
 	{ event 5004 46 "wfoly_plr_br_xmike5_reload_empty_xmag_04" }
 	{ event 9031 26 "ResetBullets" }
-	{ event 5004 26 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 26 "MW_MagazineDrop.SMG.Poly" }
 	{ event 5004 61 "wfoly_plr_br_xmike5_reload_empty_xmag_05" }
 	{ event 5004 63 "wfoly_plr_br_xmike5_reload_empty_xmag_06" }
 	{ event 5004 73 "wfoly_plr_br_xmike5_reload_empty_xmag_07" }
@@ -1364,7 +1364,7 @@ $sequence "reload_empty_fast_xmag" {
 	{ event 5004 7 "wfoly_plr_br_xmike5_reload_empty_fast_xmag_02" }
 	{ event 5004 9 "wfoly_plr_br_xmike5_reload_empty_fast_xmag_03" }
 	{ event 5004 24 "wfoly_plr_br_xmike5_reload_empty_fast_xmag_04" }
-	{ event 5004 23 "fly_ar_standard_empty_mag_drop_01 -10,10,40" }
+	{ event 5004 23 "MW_MagazineDrop.SMG.Poly" }
 	{ event 9031 23 "ResetBullets" }
 	{ event 5004 37 "wfoly_plr_br_xmike5_reload_empty_fast_xmag_05" }
 	{ event 5004 45 "wfoly_plr_br_xmike5_reload_empty_fast_xmag_06" }
@@ -1939,7 +1939,7 @@ $sequence "hybrid_toggle_off" {
 $sequence "ads_in" {
 	"basbanims\jup_vm_p08_br_xmike5_idle.smd"
 	rotate -90
-	{ event 5004 1 "weap_ar_mike4_ads_up" }
+	{ event 5004 0 "weap_ar_mike4_ads_up" }
 	{ event 9011 0 "1" }
 	{ event 9011 0 "1" }
 	

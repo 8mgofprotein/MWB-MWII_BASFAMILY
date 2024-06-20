@@ -1174,17 +1174,18 @@ $sequence "reload" {
 	rotate -90
 	blend "aim_offset" 0 1
 	blendwidth 2
-	{ event 9011 3 "0" }
-	{ event 5004 0 "wfoly_plr_sm_mpapa7_reload_lift" }
-	{ event 5004 8 "Viewmodel.Medium" }
-	{ event 5004 20 "wfoly_plr_sm_mpapa7_reload_mag_release" }
-	{ event 5004 23 "wfoly_plr_sm_mpapa7_reload_magout" }
-	{ event 5004 36 "wfoly_plr_sm_mpapa7_reload_magin" }
-	{ event 5004 35 "Viewmodel.Small" }
-	{ event 5004 51 "wfoly_plr_sm_mpapa7_reload_mvmnt" }
-	{ event 5004 64 "wfoly_plr_sm_mpapa7_reload_end" }
-	{ event 9011 63 "1" }
-	{ event 5004 55 "Viewmodel.Small" }
+{ event 5004 0 "ps_wfoly_plr_ar_mcharlie_reload_01" }
+{ event 9011 1 "0" }
+{ event 5004 12 "Viewmodel.Small" }
+{ event 5004 24 "ps_wfoly_plr_ar_mcharlie_reload_02" }
+{ event 5004 26 "Viewmodel.Small" }
+{ event 5004 33 "Viewmodel.Small" }
+{ event 5004 35 "ps_wfoly_plr_ar_mcharlie_reload_03" }
+{ event 5004 40 "Viewmodel.Medium" }
+{ event 5004 50 "ps_wfoly_plr_ar_mcharlie_reload_04" }
+{ event 9031 57 "ResetBullets" }
+{ event 9011 60 "1" }
+{ event 5004 66 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"

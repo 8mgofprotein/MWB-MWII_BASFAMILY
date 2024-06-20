@@ -174,7 +174,7 @@ sound.Add({
     name =           "wfoly_plr_br_xmike5_inspect_019",
     channel =        CHAN_WPNFOLEY + 22,
     volume =         1,
-    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_19.wav"}
+    sound = {"kyo/mwii/xmike5_sounds/wfoly_plr_br_xmike5_inspect_019.wav"}
 })
 
 sound.Add({
