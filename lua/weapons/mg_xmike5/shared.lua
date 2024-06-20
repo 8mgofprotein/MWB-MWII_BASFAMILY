@@ -15,7 +15,7 @@ end
 SWEP.Base = "mg_base"
 SWEP.GripPoseParameters = {"grip_ang_offset", "grip_vert_offset", "grip_vertpro_offset", "grip_barmini_offset", "grip_barshort_offset", "grip_barlong_offset" , "grip_barshort_gripang_offset", "grip_barshort_gripvert_offset", "grip_barshort_gripvertpro_offset"}
 
-SWEP.PrintName = "BAS - B"
+SWEP.PrintName = "BAS-B"
 SWEP.Category = "Modern Warfare"
 SWEP.SubCategory = "Assault Rifles"
 SWEP.Spawnable = true
