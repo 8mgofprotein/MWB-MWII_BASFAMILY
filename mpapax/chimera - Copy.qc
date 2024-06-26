@@ -1205,7 +1205,7 @@ $sequence "reload_fast" {
 { event 9011 0 "0" }
 { event 5004 6 "ps_wfoly_plr_ar_mcharlie_reload_fast_02" }
 { event 5004 9 "Viewmodel.Small" }
-{ event 5004 12 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 12 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 9031 19 "ResetBullets" }
 { event 5004 22 "ps_wfoly_plr_ar_mcharlie_reload_fast_03" }
 { event 5004 26 "ps_wfoly_plr_ar_mcharlie_reload_fast_04" }
@@ -1248,7 +1248,7 @@ $sequence "reload_empty" {
 { event 5004 12 "Viewmodel.Small" }
 { event 5004 21 "ps_wfoly_plr_ar_mcharlie_reload_empty_02" }
 { event 5004 26 "Viewmodel.Small" }
-{ event 5004 27 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 27 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 5004 30 "Viewmodel.Medium" }
 { event 5004 41 "Viewmodel.Small" }
 { event 5004 43 "ps_wfoly_plr_ar_mcharlie_reload_empty_03" }
@@ -1294,7 +1294,7 @@ $sequence "reload_empty_fast" {
 { event 9011 0 "0" }
 { event 5004 5 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_02" }
 { event 5004 9 "Viewmodel.Small" }
-{ event 5004 11 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 11 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 9031 19 "ResetBullets" }
 { event 5004 22 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_03" }
 { event 5004 24 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_04" }
@@ -1380,7 +1380,7 @@ $sequence "reload_fast_xmag" {
 	{ event 9011 0 "0" }
 { event 5004 0 "ps_wfoly_plr_ar_mcharlie_reload_fast_xmag_01" }
 { event 5004 5 "ps_wfoly_plr_ar_mcharlie_reload_fast_xmag_02" }
-{ event 5004 7 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 7 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 5004 9 "Viewmodel.Small" }
 { event 9031 19 "ResetBullets" }
 { event 5004 28 "ps_wfoly_plr_ar_mcharlie_reload_fast_xmag_03" }
@@ -1425,7 +1425,7 @@ $sequence "reload_empty_xmag" {
 { event 5004 22 "ps_wfoly_plr_ar_mcharlie_reload_empty_xmag_02" }
 { event 5004 23 "ps_wfoly_plr_ar_mcharlie_reload_empty_xmag_03" }
 { event 5004 26 "Viewmodel.Small" }
-{ event 5004 26 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 26 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 5004 30 "Viewmodel.Medium" }
 { event 5004 41 "Viewmodel.Small" }
 { event 5004 43 "ps_wfoly_plr_ar_mcharlie_reload_empty_xmag_04" }
@@ -1470,7 +1470,7 @@ $sequence "reload_empty_fast_xmag" {
 { event 5004 0 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_xmag_01" }
 { event 5004 3 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_xmag_02" }
 { event 5004 11 "Viewmodel.Small" }
-{ event 5004 11 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 11 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 9031 19 "ResetBullets" }
 { event 5004 27 "Viewmodel.Small" }
 { event 5004 28 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_xmag_03" }
@@ -1605,7 +1605,7 @@ $sequence "reload_empty_xmaglrg" {
 { event 5004 28 "ps_wfoly_plr_ar_mcharlie_reload_empty_xmaglrg_02" }
 { event 5004 31 "ps_wfoly_plr_ar_mcharlie_reload_empty_xmaglrg_03" }
 { event 5004 32 "Viewmodel.Small" }
-{ event 5004 33 "MW_MagazineDrop.AR.Metal" }
+{ event 5004 33 "MW_MagazineDrop.AR.Metal -10,10,40" }
 { event 5004 36 "Viewmodel.Medium" }
 { event 5004 47 "Viewmodel.Small" }
 { event 5004 50 "ps_wfoly_plr_ar_mcharlie_reload_empty_xmaglrg_04" }
@@ -1650,7 +1650,7 @@ $sequence "reload_empty_fast_xmaglrg" {
 { event 5004 0 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_xmaglrg_01" }
 { event 5004 6 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_xmaglrg_02" }
 { event 5004 8 "Viewmodel.Small" }
-{ event 5004 9 "MW_MagazineDrop.AR.Metal"}
+{ event 5004 9 "MW_MagazineDrop.AR.Metal -10,10,40" }
 { event 5004 21 "ps_wfoly_plr_ar_mcharlie_reload_empty_fast_xmaglrg_03" }
 { event 9031 24 "ResetBullets" }
 { event 5004 36 "Viewmodel.Small" }
@@ -1738,7 +1738,7 @@ $sequence "reload_fast_smag" {
 { event 5004 0 "ps_wfoly_plr_ar_mcbravo_reload_fast_smag_01" }
 { event 5004 6 "ps_wfoly_plr_ar_mcbravo_reload_fast_smag_02" }
 { event 5004 10 "Viewmodel.Small" }
-{ event 5004 10 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 10 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 5004 22 "ps_wfoly_plr_ar_mcbravo_reload_fast_smag_03" }
 { event 5004 23 "Viewmodel.Small" }
 { event 5004 25 "Viewmodel.Medium" }
@@ -1779,7 +1779,7 @@ $sequence "reload_empty_smag" {
 { event 5004 0 "ps_wfoly_plr_ar_mcbravo_reload_empty_smag_01" }
 { event 5004 5 "ps_wfoly_plr_ar_mcbravo_reload_empty_smag_02" }
 { event 5004 9 "Viewmodel.Medium" }
-{ event 5004 9 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 9 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 5004 19 "ps_wfoly_plr_ar_mcbravo_reload_empty_smag_03" }
 { event 9031 19 "ResetBullets" }
 { event 5004 32 "Viewmodel.Small" }
@@ -1825,7 +1825,7 @@ $sequence "reload_empty_fast_smag" {
 { event 5004 0 "ps_wfoly_plr_ar_mcbravo_reload_empty_fast_smag_01" }
 { event 5004 6 "ps_wfoly_plr_ar_mcbravo_reload_empty_fast_smag_02" }
 { event 5004 9 "Viewmodel.Small" }
-{ event 5004 10 "MW_MagazineDrop.AR.Poly" }
+{ event 5004 10 "MW_MagazineDrop.AR.Poly -10,10,40" }
 { event 9031 18 "ResetBullets" }
 { event 5004 20 "ps_wfoly_plr_ar_mcbravo_reload_empty_fast_smag_03" }
 { event 5004 23 "Viewmodel.Small" }

@@ -1248,7 +1248,7 @@ $sequence "reload_fast" {
 { event 5004 0 "ps_wfoly_plr_sm_mpapax_reload_fast_01" }
 { event 5004 9 "ps_wfoly_plr_sm_mpapax_reload_fast_02" }
 { event 5004 15 "Viewmodel.Medium" }
-{ event 5004 15 "MW_MagazineDrop.SMG.Poly" }
+{ event 5004 15 "MW_MagazineDrop.SMG.Poly -10,10,40" }
 { event 9031 17 "ResetBullets" }
 { event 5004 23 "Viewmodel.Small" }
 { event 5004 25 "ps_wfoly_plr_sm_mpapax_reload_fast_03" }
@@ -1294,7 +1294,7 @@ $sequence "reload_empty" {
 { event 5004 21 "ps_wfoly_plr_sm_mpapax_reload_empty_02" }
 { event 5004 24 "Viewmodel.Small" }
 { event 5004 27 "Viewmodel.Medium" }
-{ event 5004 27 "MW_MagazineDrop.SMG.Poly" }
+{ event 5004 27 "MW_MagazineDrop.SMG.Poly -10,10,40" }
 { event 5004 41 "Viewmodel.Small" }
 { event 5004 42 "ps_wfoly_plr_sm_mpapax_reload_empty_03" }
 { event 5004 48 "Viewmodel.Medium" }
@@ -1339,7 +1339,7 @@ $sequence "reload_empty_fast" {
 { event 9011 0 "0" }
 { event 5004 9 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_02" }
 { event 5004 14 "Viewmodel.Medium" }
-{ event 5004 14 "MW_MagazineDrop.SMG.Poly" }
+{ event 5004 14 "MW_MagazineDrop.SMG.Poly -10,10,40" }
 { event 9031 15 "ResetBullets" }
 { event 5004 21 "Viewmodel.Small" }
 { event 5004 25 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_03" }
@@ -1429,7 +1429,7 @@ $sequence "reload_fast_drum" {
 { event 9011 2 "0" }
 { event 5004 9 "ps_wfoly_plr_sm_mpapax_reload_fast_drum_02" }
 { event 5004 14 "Viewmodel.Medium" }
-{ event 5004 14 "MW_MagazineDrop.Drum" }
+{ event 5004 14 "MW_MagazineDrop.Drum -10,10,40" }
 { event 9031 20 "ResetBullets" }
 { event 5004 26 "Viewmodel.Small" }
 { event 5004 29 "ps_wfoly_plr_sm_mpapax_reload_fast_drum_03" }
@@ -1476,7 +1476,7 @@ $sequence "reload_empty_drum" {
 { event 9011 21 "0" }
 { event 5004 22 "Viewmodel.Small" }
 { event 5004 27 "Viewmodel.Medium" }
-{ event 5004 27 "MW_MagazineDrop.Drum" }
+{ event 5004 27 "MW_MagazineDrop.Drum -10,10,40" }
 { event 9031 44 "ResetBullets" }
 { event 5004 46 "Viewmodel.Small" }
 { event 5004 52 "ps_wfoly_plr_sm_mpapax_reload_empty_drum_04" }
@@ -1524,7 +1524,7 @@ $sequence "reload_empty_fast_drum" {
 { event 9011 2 "0" }
 { event 5004 7 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_drum_02" }
 { event 5004 14 "Viewmodel.Medium" }
-{ event 5004 14 "MW_MagazineDrop.Drum" }
+{ event 5004 14 "MW_MagazineDrop.Drum -10,10,40" }
 { event 9031 20 "ResetBullets" }
 { event 5004 26 "Viewmodel.Small" }
 { event 5004 30 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_drum_03" }
@@ -1617,7 +1617,7 @@ $sequence "reload_fast_smag" {
 { event 5004 0 "ps_wfoly_plr_sm_mpapax_reload_fast_smag_01" }
 { event 5004 10 "ps_wfoly_plr_sm_mpapax_reload_fast_smag_02" }
 { event 5004 15 "Viewmodel.Medium" }
-{ event 5004 15 "MW_MagazineDrop.SMG.Poly" }
+{ event 5004 15 "MW_MagazineDrop.SMG.Poly -10,10,40" }
 { event 9031 17 "ResetBullets" }
 { event 5004 23 "Viewmodel.Small" }
 { event 5004 25 "ps_wfoly_plr_sm_mpapax_reload_fast_smag_03" }
@@ -1663,7 +1663,7 @@ $sequence "reload_empty_smag" {
 { event 5004 21 "ps_wfoly_plr_sm_mpapax_reload_empty_smag_02" }
 { event 5004 24 "Viewmodel.Small" }
 { event 5004 27 "Viewmodel.Medium" }
-{ event 5004 27 "MW_MagazineDrop.SMG.Poly" }
+{ event 5004 27 "MW_MagazineDrop.SMG.Poly -10,10,40" }
 { event 5004 27 "ps_wfoly_plr_sm_mpapax_reload_empty_smag_03" }
 { event 5004 40 "ps_wfoly_plr_sm_mpapax_reload_empty_smag_04" }
 { event 5004 41 "Viewmodel.Small" }
@@ -1709,7 +1709,7 @@ $sequence "reload_empty_fast_smag" {
 { event 5004 0 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_smag_01" }
 { event 5004 8 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_smag_02" }
 { event 5004 14 "Viewmodel.Medium" }
-{ event 5004 14 "MW_MagazineDrop.SMG.Poly" }
+{ event 5004 14 "MW_MagazineDrop.SMG.Poly -10,10,40" }
 { event 9031 15 "ResetBullets" }
 { event 5004 21 "Viewmodel.Small" }
 { event 5004 25 "ps_wfoly_plr_sm_mpapax_reload_empty_fast_smag_03" }
