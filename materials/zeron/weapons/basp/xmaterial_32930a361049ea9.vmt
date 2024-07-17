@@ -10,7 +10,7 @@
     /////////////////
 
     "$phong" "1"
-    "$phongboost" "2"
+    "$phongboost" "1"
     "$phongalbedotint" "1"
     "$phongalbedoboost" "10"                                //toy around with this
     "$phongfresnelranges" "[1 0.1 0]"
@@ -25,7 +25,7 @@
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
     /////////////////
 
-    "$envmap" "zeron\weapons\basp\specularity_00"
+    "$envmap" "viper\shared\envmaps\specularity_00"
     "$envmaptint" "[0.098 0.098 0.098]"                 
 
     //remove this if not using MWB
@@ -35,7 +35,7 @@
         {
             "min" "0"
             "max" "1"
-            "envmap" "zeron\weapons\basp\specularity_00"
+            "envmap" "viper\shared\envmaps\specularity_00"
             "color" "[0.098 0.098 0.098]"
         }
     }
