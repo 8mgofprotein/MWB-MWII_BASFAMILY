@@ -6,7 +6,7 @@ function SWEP:doSuppressorStats()
         RoomScale = 50000,
         Sounds = {
             Outside = {
-                Layer = Sound("Atmo_AR2_Sup.Outside"),
+                Layer = Sound("Atmo_AR_Sup.Outside"),
                 Reflection = Sound("Reflection_ARSUP.Outside")
             },
     
